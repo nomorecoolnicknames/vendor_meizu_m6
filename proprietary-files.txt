@@ -117,7 +117,7 @@ lib/liba3m.so
 lib/libaffinity_jni.so
 lib/libalsautils.so
 lib/libandroid.so
-lib/libandroid_runtime.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libandroid_runtime.so
 lib/libandroid_servers.so
 lib/libandroidfw.so
 lib/libarcsoft_low_light_shot.so
@@ -135,11 +135,11 @@ lib/libaudioresampler.so
 lib/libaudiospdif.so
 lib/libaudioutils.so
 lib/libbacktrace.so
-lib/libbase.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libbase.so
 lib/libbcc.so
 lib/libbcinfo.so
 lib/libbinary_parse.so
-lib/libbinder.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libbinder.so
 lib/libblas.so
 lib/libblasV8.so
 lib/libbluetooth_jni.so
@@ -160,7 +160,7 @@ lib/libcompiler_rt.so
 lib/libcrypto.so
 lib/libcrypto_framwork.so
 lib/libcurl.so
-lib/libcutils.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libcutils.so
 lib/libdcfdecoderjni.so
 lib/libdiagn.so
 lib/libdl.so
@@ -175,25 +175,25 @@ lib/libevent.so
 lib/libexif.so
 lib/libexif_gallery.so
 lib/libexpat.so
-lib/libext2_blkid.so
-lib/libext2_com_err.so
-lib/libext2_e2p.so
-lib/libext2_profile.so
-lib/libext2_uuid.so
-lib/libext2fs.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libext2_blkid.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libext2_com_err.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libext2_e2p.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libext2_profile.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libext2_uuid.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libext2fs.so
 lib/libffmpeg_utils.so
 lib/libfilterUtils.so
 lib/libfilter_effects.so
 lib/libfilterfw.so
 lib/libfilterpack_imageproc.so
-lib/libfs_mgr.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libfs_mgr.so
 lib/libft2.so
 lib/libgabi++.so
 lib/libgatekeeper.so
 lib/libglrenderer.so
-lib/libgui.so
-lib/libhardware.so
-lib/libhardware_legacy.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libgui.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libhardware.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libhardware_legacy.so
 lib/libharfbuzz_ng.so
 lib/libhwui.so
 lib/libicui18n.so
@@ -218,11 +218,11 @@ lib/libjni_systemui.so
 lib/libjni_systemuiex.so
 lib/libjnigraphics.so
 lib/libjpeg.so
-lib/libkeymaster1.so
-lib/libkeymaster_messages.so
-lib/libkeystore-engine.so
-lib/libkeystore_binder.so
-lib/liblog.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libkeymaster1.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libkeymaster_messages.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libkeystore-engine.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libkeystore_binder.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/liblog.so
 lib/liblogwrap.so
 lib/liblz4.so
 lib/liblzma.so
@@ -291,8 +291,8 @@ lib/libserviceutility.so
 lib/libsffmpeg.so
 lib/libsigchain.so
 lib/libskia.so
-lib/libsoftkeymaster.so
-lib/libsoftkeymasterdevice.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libsoftkeymaster.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libsoftkeymasterdevice.so
 lib/libsonic.so
 lib/libsonivox.so
 lib/libsoundpool.so
@@ -334,8 +334,8 @@ lib/libstagefright_soft_vpxenc.so
 lib/libstagefright_wfd.so
 lib/libstagefright_yuv.so
 lib/libstdc++.so
-lib/libsurfaceflinger.so
-lib/libsurfaceflinger_ddmconnection.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libsurfaceflinger.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libsurfaceflinger_ddmconnection.so
 lib/libsurfacetexture_bitmap.so
 lib/libsuspend.so
 lib/libsync.so
@@ -346,10 +346,10 @@ lib/libtiff_directory.so
 lib/libtinyalsa.so
 lib/libtinycompress.so
 lib/libtinyxml.so
-lib/libui.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libui.so
 lib/libunwind.so
 lib/libusbhost.so
-lib/libutils.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libutils.so
 lib/libvfb_render.so
 lib/libvixl.so
 lib/libvorbisidec.so
@@ -434,7 +434,7 @@ lib64/liba3m.so
 lib64/libaffinity_jni.so
 lib64/libalsautils.so
 lib64/libandroid.so
-lib64/libandroid_runtime.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libandroid_runtime.so
 lib64/libandroid_servers.so
 lib64/libandroidfw.so
 lib64/libappfuse_jni.so
@@ -451,11 +451,11 @@ lib64/libaudiopolicymanagerdefault.so
 lib64/libaudiopolicyservice.so
 lib64/libaudioutils.so
 lib64/libbacktrace.so
-lib64/libbase.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libbase.so
 lib64/libbcc.so
 lib64/libbcinfo.so
 lib64/libbinary_parse.so
-lib64/libbinder.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libbinder.so
 lib64/libblas.so
 lib64/libc++.so
 lib64/libc.so
@@ -469,7 +469,7 @@ lib64/libcameraservice.so
 lib64/libcfgdevparam.so
 lib64/libcompiler_rt.so
 lib64/libcrypto.so
-lib64/libcutils.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libcutils.so
 lib64/libdcfdecoderjni.so
 lib64/libdefcontainer_jni.so
 lib64/libdiagn.so
@@ -485,14 +485,14 @@ lib64/libeffects_mosaic.so
 lib64/libexif.so
 lib64/libexif_gallery.so
 lib64/libexpat.so
-lib64/libext2_blkid.so
-lib64/libext2_com_err.so
-lib64/libext2_e2p.so
-lib64/libext2_profile.so
-lib64/libext2_quota.so
-lib64/libext2_uuid.so
-lib64/libext2fs.so
-lib64/libext4_utils.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2_blkid.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2_com_err.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2_e2p.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2_profile.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2_quota.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2_uuid.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2fs.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libext4_utils.so
 lib64/libf2fs_sparseblock.so
 lib64/libffmpeg_utils.so
 lib64/libfilterUtils.so
@@ -500,7 +500,7 @@ lib64/libfilter_effects.so
 lib64/libfilterfw.so
 lib64/libfilterpack_facedetect.so
 lib64/libfilterpack_imageproc.so
-lib64/libfs_mgr.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libfs_mgr.so
 lib64/libft2.so
 lib64/libgabi++.so
 lib64/libgatekeeper.so
@@ -509,9 +509,9 @@ lib64/libgf_ca.so
 lib64/libgf_hal.so
 lib64/libglrenderer.so
 lib64/libgoodixfingerprintd_binder.so
-lib64/libgui.so
-lib64/libhardware.so
-lib64/libhardware_legacy.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libgui.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libhardware.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libhardware_legacy.so
 lib64/libharfbuzz_ng.so
 lib64/libhidcommand_jni.so
 lib64/libhwui.so
@@ -537,11 +537,11 @@ lib64/libjni_systemui.so
 lib64/libjni_systemuiex.so
 lib64/libjnigraphics.so
 lib64/libjpeg.so
-lib64/libkeymaster1.so
-lib64/libkeymaster_messages.so
-lib64/libkeystore-engine.so
-lib64/libkeystore_binder.so
-lib64/liblog.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libkeymaster1.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libkeymaster_messages.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libkeystore-engine.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libkeystore_binder.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/liblog.so
 lib64/liblogwrap.so
 lib64/liblz4.so
 lib64/liblzma.so
@@ -610,8 +610,8 @@ lib64/libserviceutility.so
 lib64/libsffmpeg.so
 lib64/libsigchain.so
 lib64/libskia.so
-lib64/libsoftkeymaster.so
-lib64/libsoftkeymasterdevice.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libsoftkeymaster.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libsoftkeymasterdevice.so
 lib64/libsonic.so
 lib64/libsonivox.so
 lib64/libsoundpool.so
@@ -652,8 +652,8 @@ lib64/libstagefright_soft_vpxdec.so
 lib64/libstagefright_soft_vpxenc.so
 lib64/libstagefright_yuv.so
 lib64/libstdc++.so
-lib64/libsurfaceflinger.so
-lib64/libsurfaceflinger_ddmconnection.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libsurfaceflinger.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libsurfaceflinger_ddmconnection.so
 lib64/libsuspend.so
 lib64/libsync.so
 lib64/libsysutils.so
@@ -663,10 +663,10 @@ lib64/libtiff_directory.so
 lib64/libtinyalsa.so
 lib64/libtinycompress.so
 lib64/libtinyxml.so
-lib64/libui.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libui.so
 lib64/libunwind.so
 lib64/libusbhost.so
-lib64/libutils.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libutils.so
 lib64/libvfb_render.so
 lib64/libvixl.so
 lib64/libvlife_media.so

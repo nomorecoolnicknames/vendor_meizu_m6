@@ -112,7 +112,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libaffinity_jni.so:system/lib/libaffinity_jni.so \
     $(LOCAL_PATH)/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     $(LOCAL_PATH)/proprietary/lib/libandroid.so:system/lib/libandroid.so \
-    $(LOCAL_PATH)/proprietary/lib/libandroid_runtime.so:system/lib/libandroid_runtime.so \
     $(LOCAL_PATH)/proprietary/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
     $(LOCAL_PATH)/proprietary/lib/libandroidfw.so:system/lib/libandroidfw.so \
     $(LOCAL_PATH)/proprietary/lib/libarcsoft_low_light_shot.so:system/lib/libarcsoft_low_light_shot.so \
@@ -130,11 +129,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libaudiospdif.so:system/lib/libaudiospdif.so \
     $(LOCAL_PATH)/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
     $(LOCAL_PATH)/proprietary/lib/libbacktrace.so:system/lib/libbacktrace.so \
-    $(LOCAL_PATH)/proprietary/lib/libbase.so:system/lib/libbase.so \
     $(LOCAL_PATH)/proprietary/lib/libbcc.so:system/lib/libbcc.so \
     $(LOCAL_PATH)/proprietary/lib/libbcinfo.so:system/lib/libbcinfo.so \
     $(LOCAL_PATH)/proprietary/lib/libbinary_parse.so:system/lib/libbinary_parse.so \
-    $(LOCAL_PATH)/proprietary/lib/libbinder.so:system/lib/libbinder.so \
     $(LOCAL_PATH)/proprietary/lib/libblas.so:system/lib/libblas.so \
     $(LOCAL_PATH)/proprietary/lib/libblasV8.so:system/lib/libblasV8.so \
     $(LOCAL_PATH)/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
@@ -155,7 +152,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libcrypto.so:system/lib/libcrypto.so \
     $(LOCAL_PATH)/proprietary/lib/libcrypto_framwork.so:system/lib/libcrypto_framwork.so \
     $(LOCAL_PATH)/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-    $(LOCAL_PATH)/proprietary/lib/libcutils.so:system/lib/libcutils.so \
     $(LOCAL_PATH)/proprietary/lib/libdcfdecoderjni.so:system/lib/libdcfdecoderjni.so \
     $(LOCAL_PATH)/proprietary/lib/libdiagn.so:system/lib/libdiagn.so \
     $(LOCAL_PATH)/proprietary/lib/libdl.so:system/lib/libdl.so \
@@ -170,25 +166,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libexif.so:system/lib/libexif.so \
     $(LOCAL_PATH)/proprietary/lib/libexif_gallery.so:system/lib/libexif_gallery.so \
     $(LOCAL_PATH)/proprietary/lib/libexpat.so:system/lib/libexpat.so \
-    $(LOCAL_PATH)/proprietary/lib/libext2_blkid.so:system/lib/libext2_blkid.so \
-    $(LOCAL_PATH)/proprietary/lib/libext2_com_err.so:system/lib/libext2_com_err.so \
-    $(LOCAL_PATH)/proprietary/lib/libext2_e2p.so:system/lib/libext2_e2p.so \
-    $(LOCAL_PATH)/proprietary/lib/libext2_profile.so:system/lib/libext2_profile.so \
-    $(LOCAL_PATH)/proprietary/lib/libext2_uuid.so:system/lib/libext2_uuid.so \
-    $(LOCAL_PATH)/proprietary/lib/libext2fs.so:system/lib/libext2fs.so \
     $(LOCAL_PATH)/proprietary/lib/libffmpeg_utils.so:system/lib/libffmpeg_utils.so \
     $(LOCAL_PATH)/proprietary/lib/libfilterUtils.so:system/lib/libfilterUtils.so \
     $(LOCAL_PATH)/proprietary/lib/libfilter_effects.so:system/lib/libfilter_effects.so \
     $(LOCAL_PATH)/proprietary/lib/libfilterfw.so:system/lib/libfilterfw.so \
     $(LOCAL_PATH)/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
-    $(LOCAL_PATH)/proprietary/lib/libfs_mgr.so:system/lib/libfs_mgr.so \
     $(LOCAL_PATH)/proprietary/lib/libft2.so:system/lib/libft2.so \
     $(LOCAL_PATH)/proprietary/lib/libgabi++.so:system/lib/libgabi++.so \
     $(LOCAL_PATH)/proprietary/lib/libgatekeeper.so:system/lib/libgatekeeper.so \
     $(LOCAL_PATH)/proprietary/lib/libglrenderer.so:system/lib/libglrenderer.so \
-    $(LOCAL_PATH)/proprietary/lib/libgui.so:system/lib/libgui.so \
-    $(LOCAL_PATH)/proprietary/lib/libhardware.so:system/lib/libhardware.so \
-    $(LOCAL_PATH)/proprietary/lib/libhardware_legacy.so:system/lib/libhardware_legacy.so \
     $(LOCAL_PATH)/proprietary/lib/libharfbuzz_ng.so:system/lib/libharfbuzz_ng.so \
     $(LOCAL_PATH)/proprietary/lib/libhwui.so:system/lib/libhwui.so \
     $(LOCAL_PATH)/proprietary/lib/libicui18n.so:system/lib/libicui18n.so \
@@ -213,11 +199,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libjni_systemuiex.so:system/lib/libjni_systemuiex.so \
     $(LOCAL_PATH)/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
     $(LOCAL_PATH)/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
-    $(LOCAL_PATH)/proprietary/lib/libkeymaster1.so:system/lib/libkeymaster1.so \
-    $(LOCAL_PATH)/proprietary/lib/libkeymaster_messages.so:system/lib/libkeymaster_messages.so \
-    $(LOCAL_PATH)/proprietary/lib/libkeystore-engine.so:system/lib/libkeystore-engine.so \
-    $(LOCAL_PATH)/proprietary/lib/libkeystore_binder.so:system/lib/libkeystore_binder.so \
-    $(LOCAL_PATH)/proprietary/lib/liblog.so:system/lib/liblog.so \
     $(LOCAL_PATH)/proprietary/lib/liblogwrap.so:system/lib/liblogwrap.so \
     $(LOCAL_PATH)/proprietary/lib/liblz4.so:system/lib/liblz4.so \
     $(LOCAL_PATH)/proprietary/lib/liblzma.so:system/lib/liblzma.so \
@@ -286,8 +267,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsffmpeg.so:system/lib/libsffmpeg.so \
     $(LOCAL_PATH)/proprietary/lib/libsigchain.so:system/lib/libsigchain.so \
     $(LOCAL_PATH)/proprietary/lib/libskia.so:system/lib/libskia.so \
-    $(LOCAL_PATH)/proprietary/lib/libsoftkeymaster.so:system/lib/libsoftkeymaster.so \
-    $(LOCAL_PATH)/proprietary/lib/libsoftkeymasterdevice.so:system/lib/libsoftkeymasterdevice.so \
     $(LOCAL_PATH)/proprietary/lib/libsonic.so:system/lib/libsonic.so \
     $(LOCAL_PATH)/proprietary/lib/libsonivox.so:system/lib/libsonivox.so \
     $(LOCAL_PATH)/proprietary/lib/libsoundpool.so:system/lib/libsoundpool.so \
@@ -329,8 +308,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libstagefright_wfd.so:system/lib/libstagefright_wfd.so \
     $(LOCAL_PATH)/proprietary/lib/libstagefright_yuv.so:system/lib/libstagefright_yuv.so \
     $(LOCAL_PATH)/proprietary/lib/libstdc++.so:system/lib/libstdc++.so \
-    $(LOCAL_PATH)/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
-    $(LOCAL_PATH)/proprietary/lib/libsurfaceflinger_ddmconnection.so:system/lib/libsurfaceflinger_ddmconnection.so \
     $(LOCAL_PATH)/proprietary/lib/libsurfacetexture_bitmap.so:system/lib/libsurfacetexture_bitmap.so \
     $(LOCAL_PATH)/proprietary/lib/libsuspend.so:system/lib/libsuspend.so \
     $(LOCAL_PATH)/proprietary/lib/libsync.so:system/lib/libsync.so \
@@ -341,10 +318,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     $(LOCAL_PATH)/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     $(LOCAL_PATH)/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
-    $(LOCAL_PATH)/proprietary/lib/libui.so:system/lib/libui.so \
     $(LOCAL_PATH)/proprietary/lib/libunwind.so:system/lib/libunwind.so \
     $(LOCAL_PATH)/proprietary/lib/libusbhost.so:system/lib/libusbhost.so \
-    $(LOCAL_PATH)/proprietary/lib/libutils.so:system/lib/libutils.so \
     $(LOCAL_PATH)/proprietary/lib/libvfb_render.so:system/lib/libvfb_render.so \
     $(LOCAL_PATH)/proprietary/lib/libvixl.so:system/lib/libvixl.so \
     $(LOCAL_PATH)/proprietary/lib/libvorbisidec.so:system/lib/libvorbisidec.so \
@@ -429,7 +404,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libaffinity_jni.so:system/lib64/libaffinity_jni.so \
     $(LOCAL_PATH)/proprietary/lib64/libalsautils.so:system/lib64/libalsautils.so \
     $(LOCAL_PATH)/proprietary/lib64/libandroid.so:system/lib64/libandroid.so \
-    $(LOCAL_PATH)/proprietary/lib64/libandroid_runtime.so:system/lib64/libandroid_runtime.so \
     $(LOCAL_PATH)/proprietary/lib64/libandroid_servers.so:system/lib64/libandroid_servers.so \
     $(LOCAL_PATH)/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so \
     $(LOCAL_PATH)/proprietary/lib64/libappfuse_jni.so:system/lib64/libappfuse_jni.so \
@@ -446,11 +420,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libaudiopolicyservice.so:system/lib64/libaudiopolicyservice.so \
     $(LOCAL_PATH)/proprietary/lib64/libaudioutils.so:system/lib64/libaudioutils.so \
     $(LOCAL_PATH)/proprietary/lib64/libbacktrace.so:system/lib64/libbacktrace.so \
-    $(LOCAL_PATH)/proprietary/lib64/libbase.so:system/lib64/libbase.so \
     $(LOCAL_PATH)/proprietary/lib64/libbcc.so:system/lib64/libbcc.so \
     $(LOCAL_PATH)/proprietary/lib64/libbcinfo.so:system/lib64/libbcinfo.so \
     $(LOCAL_PATH)/proprietary/lib64/libbinary_parse.so:system/lib64/libbinary_parse.so \
-    $(LOCAL_PATH)/proprietary/lib64/libbinder.so:system/lib64/libbinder.so \
     $(LOCAL_PATH)/proprietary/lib64/libblas.so:system/lib64/libblas.so \
     $(LOCAL_PATH)/proprietary/lib64/libc++.so:system/lib64/libc++.so \
     $(LOCAL_PATH)/proprietary/lib64/libc.so:system/lib64/libc.so \
@@ -464,7 +436,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libcfgdevparam.so:system/lib64/libcfgdevparam.so \
     $(LOCAL_PATH)/proprietary/lib64/libcompiler_rt.so:system/lib64/libcompiler_rt.so \
     $(LOCAL_PATH)/proprietary/lib64/libcrypto.so:system/lib64/libcrypto.so \
-    $(LOCAL_PATH)/proprietary/lib64/libcutils.so:system/lib64/libcutils.so \
     $(LOCAL_PATH)/proprietary/lib64/libdcfdecoderjni.so:system/lib64/libdcfdecoderjni.so \
     $(LOCAL_PATH)/proprietary/lib64/libdefcontainer_jni.so:system/lib64/libdefcontainer_jni.so \
     $(LOCAL_PATH)/proprietary/lib64/libdiagn.so:system/lib64/libdiagn.so \
@@ -480,14 +451,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libexif.so:system/lib64/libexif.so \
     $(LOCAL_PATH)/proprietary/lib64/libexif_gallery.so:system/lib64/libexif_gallery.so \
     $(LOCAL_PATH)/proprietary/lib64/libexpat.so:system/lib64/libexpat.so \
-    $(LOCAL_PATH)/proprietary/lib64/libext2_blkid.so:system/lib64/libext2_blkid.so \
-    $(LOCAL_PATH)/proprietary/lib64/libext2_com_err.so:system/lib64/libext2_com_err.so \
-    $(LOCAL_PATH)/proprietary/lib64/libext2_e2p.so:system/lib64/libext2_e2p.so \
-    $(LOCAL_PATH)/proprietary/lib64/libext2_profile.so:system/lib64/libext2_profile.so \
-    $(LOCAL_PATH)/proprietary/lib64/libext2_quota.so:system/lib64/libext2_quota.so \
-    $(LOCAL_PATH)/proprietary/lib64/libext2_uuid.so:system/lib64/libext2_uuid.so \
-    $(LOCAL_PATH)/proprietary/lib64/libext2fs.so:system/lib64/libext2fs.so \
-    $(LOCAL_PATH)/proprietary/lib64/libext4_utils.so:system/lib64/libext4_utils.so \
     $(LOCAL_PATH)/proprietary/lib64/libf2fs_sparseblock.so:system/lib64/libf2fs_sparseblock.so \
     $(LOCAL_PATH)/proprietary/lib64/libffmpeg_utils.so:system/lib64/libffmpeg_utils.so \
     $(LOCAL_PATH)/proprietary/lib64/libfilterUtils.so:system/lib64/libfilterUtils.so \
@@ -495,7 +458,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libfilterfw.so:system/lib64/libfilterfw.so \
     $(LOCAL_PATH)/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
     $(LOCAL_PATH)/proprietary/lib64/libfilterpack_imageproc.so:system/lib64/libfilterpack_imageproc.so \
-    $(LOCAL_PATH)/proprietary/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
     $(LOCAL_PATH)/proprietary/lib64/libft2.so:system/lib64/libft2.so \
     $(LOCAL_PATH)/proprietary/lib64/libgabi++.so:system/lib64/libgabi++.so \
     $(LOCAL_PATH)/proprietary/lib64/libgatekeeper.so:system/lib64/libgatekeeper.so \
@@ -504,9 +466,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
     $(LOCAL_PATH)/proprietary/lib64/libglrenderer.so:system/lib64/libglrenderer.so \
     $(LOCAL_PATH)/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
-    $(LOCAL_PATH)/proprietary/lib64/libgui.so:system/lib64/libgui.so \
-    $(LOCAL_PATH)/proprietary/lib64/libhardware.so:system/lib64/libhardware.so \
-    $(LOCAL_PATH)/proprietary/lib64/libhardware_legacy.so:system/lib64/libhardware_legacy.so \
     $(LOCAL_PATH)/proprietary/lib64/libharfbuzz_ng.so:system/lib64/libharfbuzz_ng.so \
     $(LOCAL_PATH)/proprietary/lib64/libhidcommand_jni.so:system/lib64/libhidcommand_jni.so \
     $(LOCAL_PATH)/proprietary/lib64/libhwui.so:system/lib64/libhwui.so \
@@ -532,11 +491,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libjni_systemuiex.so:system/lib64/libjni_systemuiex.so \
     $(LOCAL_PATH)/proprietary/lib64/libjnigraphics.so:system/lib64/libjnigraphics.so \
     $(LOCAL_PATH)/proprietary/lib64/libjpeg.so:system/lib64/libjpeg.so \
-    $(LOCAL_PATH)/proprietary/lib64/libkeymaster1.so:system/lib64/libkeymaster1.so \
-    $(LOCAL_PATH)/proprietary/lib64/libkeymaster_messages.so:system/lib64/libkeymaster_messages.so \
-    $(LOCAL_PATH)/proprietary/lib64/libkeystore-engine.so:system/lib64/libkeystore-engine.so \
-    $(LOCAL_PATH)/proprietary/lib64/libkeystore_binder.so:system/lib64/libkeystore_binder.so \
-    $(LOCAL_PATH)/proprietary/lib64/liblog.so:system/lib64/liblog.so \
     $(LOCAL_PATH)/proprietary/lib64/liblogwrap.so:system/lib64/liblogwrap.so \
     $(LOCAL_PATH)/proprietary/lib64/liblz4.so:system/lib64/liblz4.so \
     $(LOCAL_PATH)/proprietary/lib64/liblzma.so:system/lib64/liblzma.so \
@@ -605,8 +559,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libsffmpeg.so:system/lib64/libsffmpeg.so \
     $(LOCAL_PATH)/proprietary/lib64/libsigchain.so:system/lib64/libsigchain.so \
     $(LOCAL_PATH)/proprietary/lib64/libskia.so:system/lib64/libskia.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsoftkeymaster.so:system/lib64/libsoftkeymaster.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsoftkeymasterdevice.so:system/lib64/libsoftkeymasterdevice.so \
     $(LOCAL_PATH)/proprietary/lib64/libsonic.so:system/lib64/libsonic.so \
     $(LOCAL_PATH)/proprietary/lib64/libsonivox.so:system/lib64/libsonivox.so \
     $(LOCAL_PATH)/proprietary/lib64/libsoundpool.so:system/lib64/libsoundpool.so \
@@ -647,8 +599,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libstagefright_soft_vpxenc.so:system/lib64/libstagefright_soft_vpxenc.so \
     $(LOCAL_PATH)/proprietary/lib64/libstagefright_yuv.so:system/lib64/libstagefright_yuv.so \
     $(LOCAL_PATH)/proprietary/lib64/libstdc++.so:system/lib64/libstdc++.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsurfaceflinger.so:system/lib64/libsurfaceflinger.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsurfaceflinger_ddmconnection.so:system/lib64/libsurfaceflinger_ddmconnection.so \
     $(LOCAL_PATH)/proprietary/lib64/libsuspend.so:system/lib64/libsuspend.so \
     $(LOCAL_PATH)/proprietary/lib64/libsync.so:system/lib64/libsync.so \
     $(LOCAL_PATH)/proprietary/lib64/libsysutils.so:system/lib64/libsysutils.so \
@@ -658,10 +608,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
     $(LOCAL_PATH)/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
     $(LOCAL_PATH)/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
-    $(LOCAL_PATH)/proprietary/lib64/libui.so:system/lib64/libui.so \
     $(LOCAL_PATH)/proprietary/lib64/libunwind.so:system/lib64/libunwind.so \
     $(LOCAL_PATH)/proprietary/lib64/libusbhost.so:system/lib64/libusbhost.so \
-    $(LOCAL_PATH)/proprietary/lib64/libutils.so:system/lib64/libutils.so \
     $(LOCAL_PATH)/proprietary/lib64/libvfb_render.so:system/lib64/libvfb_render.so \
     $(LOCAL_PATH)/proprietary/lib64/libvixl.so:system/lib64/libvixl.so \
     $(LOCAL_PATH)/proprietary/lib64/libvlife_media.so:system/lib64/libvlife_media.so \
