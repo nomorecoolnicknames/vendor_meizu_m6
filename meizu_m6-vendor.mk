@@ -89,12 +89,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
     $(LOCAL_PATH)/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     $(LOCAL_PATH)/proprietary/lib/libDominantColors.so:system/lib/libDominantColors.so \
-    $(LOCAL_PATH)/proprietary/lib/libEGL.so:system/lib/libEGL.so \
     $(LOCAL_PATH)/proprietary/lib/libETC1.so:system/lib/libETC1.so \
     $(LOCAL_PATH)/proprietary/lib/libFFTEm.so:system/lib/libFFTEm.so \
-    $(LOCAL_PATH)/proprietary/lib/libGLESv1_CM.so:system/lib/libGLESv1_CM.so \
-    $(LOCAL_PATH)/proprietary/lib/libGLESv2.so:system/lib/libGLESv2.so \
-    $(LOCAL_PATH)/proprietary/lib/libGLESv3.so:system/lib/libGLESv3.so \
     $(LOCAL_PATH)/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
     $(LOCAL_PATH)/proprietary/lib/libLLVM.so:system/lib/libLLVM.so \
     $(LOCAL_PATH)/proprietary/lib/libMTKAudioTimeStretch.so:system/lib/libMTKAudioTimeStretch.so \
@@ -382,12 +378,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib64/hw/swfingerprint.default.so:system/lib64/hw/swfingerprint.default.so \
     $(LOCAL_PATH)/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
     $(LOCAL_PATH)/proprietary/lib64/libDominantColors.so:system/lib64/libDominantColors.so \
-    $(LOCAL_PATH)/proprietary/lib64/libEGL.so:system/lib64/libEGL.so \
     $(LOCAL_PATH)/proprietary/lib64/libETC1.so:system/lib64/libETC1.so \
     $(LOCAL_PATH)/proprietary/lib64/libFFTEm.so:system/lib64/libFFTEm.so \
-    $(LOCAL_PATH)/proprietary/lib64/libGLESv1_CM.so:system/lib64/libGLESv1_CM.so \
-    $(LOCAL_PATH)/proprietary/lib64/libGLESv2.so:system/lib64/libGLESv2.so \
-    $(LOCAL_PATH)/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
     $(LOCAL_PATH)/proprietary/lib64/libImmVibeJ.so:system/lib64/libImmVibeJ.so \
     $(LOCAL_PATH)/proprietary/lib64/libLLVM.so:system/lib64/libLLVM.so \
     $(LOCAL_PATH)/proprietary/lib64/libMTKAudioTimeStretch.so:system/lib64/libMTKAudioTimeStretch.so \

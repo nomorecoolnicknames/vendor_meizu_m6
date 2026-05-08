@@ -94,12 +94,12 @@ lib/hw/power.default.so
 lib/hw/vibrator.default.so
 lib/libDiracAPI_SHARED.so
 lib/libDominantColors.so
-lib/libEGL.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libEGL.so
 lib/libETC1.so
 lib/libFFTEm.so
-lib/libGLESv1_CM.so
-lib/libGLESv2.so
-lib/libGLESv3.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libGLESv1_CM.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libGLESv2.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib/libGLESv3.so
 lib/libImmVibeJ.so
 lib/libLLVM.so
 lib/libMTKAudioTimeStretch.so
@@ -412,12 +412,12 @@ lib64/hw/power.default.so
 lib64/hw/swfingerprint.default.so
 lib64/hw/vibrator.default.so
 lib64/libDominantColors.so
-lib64/libEGL.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libEGL.so
 lib64/libETC1.so
 lib64/libFFTEm.so
-lib64/libGLESv1_CM.so
-lib64/libGLESv2.so
-lib64/libGLESv3.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libGLESv1_CM.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libGLESv2.so
+# Build Station: use ROM-built core system lib instead of stock blob: lib64/libGLESv3.so
 lib64/libImmVibeJ.so
 lib64/libLLVM.so
 lib64/libMTKAudioTimeStretch.so
