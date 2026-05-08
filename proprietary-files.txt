@@ -95,28 +95,28 @@ lib/hw/vibrator.default.so
 lib/libDiracAPI_SHARED.so
 lib/libDominantColors.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libEGL.so
-lib/libETC1.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libETC1.so
 lib/libFFTEm.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libGLESv1_CM.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libGLESv2.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libGLESv3.so
 lib/libImmVibeJ.so
-lib/libLLVM.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libLLVM.so
 lib/libMTKAudioTimeStretch.so
-lib/libOpenMAXAL.so
-lib/libOpenSLES.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libOpenMAXAL.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libOpenSLES.so
 lib/libQCode.so
-lib/libRS.so
-lib/libRSCpuRef.so
-lib/libRSDriver.so
-lib/libRSSupport.so
-lib/libRS_internal.so
-lib/libRScpp.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libRS.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libRSCpuRef.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libRSDriver.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libRSSupport.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libRS_internal.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libRScpp.so
 lib/libSensorAdjustment.so
 lib/liba3m.so
 lib/libaffinity_jni.so
 lib/libalsautils.so
-lib/libandroid.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libandroid.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libandroid_runtime.so
 lib/libandroid_servers.so
 lib/libandroidfw.so
@@ -124,17 +124,17 @@ lib/libarcsoft_low_light_shot.so
 lib/libarcsoft_makeup.so
 lib/libart-compiler.so
 lib/libart.so
-lib/libaudio-resampler.so
-lib/libaudioeffect_jni.so
-lib/libaudioflinger.so
-lib/libaudiopolicyenginedefault.so
-lib/libaudiopolicymanager.so
-lib/libaudiopolicymanagerdefault.so
-lib/libaudiopolicyservice.so
-lib/libaudioresampler.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libaudio-resampler.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libaudioeffect_jni.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libaudioflinger.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libaudiopolicyenginedefault.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libaudiopolicymanager.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libaudiopolicymanagerdefault.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libaudiopolicyservice.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libaudioresampler.so
 lib/libaudiospdif.so
-lib/libaudioutils.so
-lib/libbacktrace.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libaudioutils.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libbacktrace.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libbase.so
 lib/libbcc.so
 lib/libbcinfo.so
@@ -151,13 +151,13 @@ lib/libcam.common.meizu.platform.so
 lib/libcam.common.meizu.so
 lib/libcamera2ndk.so
 lib/libcamera_client.so
-lib/libcamera_metadata.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libcamera_metadata.so
 lib/libcameraservice.so
 lib/libcap.so
 lib/libcfgdevparam.so
 lib/libchrome.so
 lib/libcompiler_rt.so
-lib/libcrypto.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libcrypto.so
 lib/libcrypto_framwork.so
 lib/libcurl.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libcutils.so
@@ -174,7 +174,7 @@ lib/libeffects_mosaic.so
 lib/libevent.so
 lib/libexif.so
 lib/libexif_gallery.so
-lib/libexpat.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libexpat.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libext2_blkid.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libext2_com_err.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libext2_e2p.so
@@ -229,16 +229,16 @@ lib/liblzma.so
 lib/libm.so
 lib/libmcode_image.so
 lib/libmdnssd.so
-lib/libmedia.so
-lib/libmedia_jni.so
-lib/libmediacodecservice.so
-lib/libmediadrm.so
-lib/libmediaextractorservice.so
-lib/libmedialogservice.so
-lib/libmediandk.so
-lib/libmediaplayerservice.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libmedia.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libmedia_jni.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libmediacodecservice.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libmediadrm.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libmediaextractorservice.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libmedialogservice.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libmediandk.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libmediaplayerservice.so
 lib/libmediatek_exceptionlog.so
-lib/libmediautils.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libmediautils.so
 lib/libmeizucamera.so
 lib/libmemtrack.so
 lib/libmemunreachable.so
@@ -269,7 +269,7 @@ lib/libphoto_process.so
 lib/libphoto_timestamp.so
 lib/libpiex.so
 lib/libpixelflinger.so
-lib/libpng.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libpng.so
 lib/libpower.so
 lib/libpowermanager.so
 lib/libprocessgroup.so
@@ -294,45 +294,45 @@ lib/libskia.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libsoftkeymaster.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libsoftkeymasterdevice.so
 lib/libsonic.so
-lib/libsonivox.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libsonivox.so
 lib/libsoundpool.so
 lib/libsoundtrigger.so
 lib/libsoundtriggerservice.so
 lib/libspeexresampler.so
 lib/libsqlite.so
-lib/libssl.so
-lib/libstagefright.so
-lib/libstagefright_amrnb_common.so
-lib/libstagefright_avc_common.so
-lib/libstagefright_enc_common.so
-lib/libstagefright_foundation.so
-lib/libstagefright_http_support.so
-lib/libstagefright_httplive.so
-lib/libstagefright_omx.so
-lib/libstagefright_soft_aacdec.so
-lib/libstagefright_soft_aacenc.so
-lib/libstagefright_soft_amrdec.so
-lib/libstagefright_soft_amrnbenc.so
-lib/libstagefright_soft_amrwbenc.so
-lib/libstagefright_soft_avcdec.so
-lib/libstagefright_soft_avcenc.so
-lib/libstagefright_soft_ffmpegadec.so
-lib/libstagefright_soft_ffmpegvdec.so
-lib/libstagefright_soft_flacenc.so
-lib/libstagefright_soft_g711dec.so
-lib/libstagefright_soft_gsmdec.so
-lib/libstagefright_soft_hevcdec.so
-lib/libstagefright_soft_mp3dec.so
-lib/libstagefright_soft_mpeg2dec.so
-lib/libstagefright_soft_mpeg4dec.so
-lib/libstagefright_soft_mpeg4enc.so
-lib/libstagefright_soft_opusdec.so
-lib/libstagefright_soft_rawdec.so
-lib/libstagefright_soft_vorbisdec.so
-lib/libstagefright_soft_vpxdec.so
-lib/libstagefright_soft_vpxenc.so
-lib/libstagefright_wfd.so
-lib/libstagefright_yuv.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libssl.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_amrnb_common.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_avc_common.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_enc_common.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_foundation.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_http_support.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_httplive.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_omx.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_aacdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_aacenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_amrdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_amrnbenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_amrwbenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_avcdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_avcenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_ffmpegadec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_ffmpegvdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_flacenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_g711dec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_gsmdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_hevcdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_mp3dec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_mpeg2dec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_mpeg4dec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_mpeg4enc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_opusdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_rawdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_vorbisdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_vpxdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_soft_vpxenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_wfd.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libstagefright_yuv.so
 lib/libstdc++.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libsurfaceflinger.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libsurfaceflinger_ddmconnection.so
@@ -347,7 +347,7 @@ lib/libtinyalsa.so
 lib/libtinycompress.so
 lib/libtinyxml.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libui.so
-lib/libunwind.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libunwind.so
 lib/libusbhost.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib/libutils.so
 lib/libvfb_render.so
@@ -365,7 +365,7 @@ lib/libwifi-service.so
 lib/libwilhelm.so
 lib/libwpa_client.so
 lib/libxml2.so
-lib/libz.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libz.so
 lib/soundfx/libaudiopreprocessing.so
 lib/soundfx/libbassboostMz.so
 lib/soundfx/libbundlewrapper.so
@@ -413,27 +413,27 @@ lib64/hw/swfingerprint.default.so
 lib64/hw/vibrator.default.so
 lib64/libDominantColors.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libEGL.so
-lib64/libETC1.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libETC1.so
 lib64/libFFTEm.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libGLESv1_CM.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libGLESv2.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libGLESv3.so
 lib64/libImmVibeJ.so
-lib64/libLLVM.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libLLVM.so
 lib64/libMTKAudioTimeStretch.so
-lib64/libOpenMAXAL.so
-lib64/libOpenSLES.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libOpenMAXAL.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libOpenSLES.so
 lib64/libQCode.so
-lib64/libRS.so
-lib64/libRSCpuRef.so
-lib64/libRSDriver.so
-lib64/libRS_internal.so
-lib64/libRScpp.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libRS.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libRSCpuRef.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libRSDriver.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libRS_internal.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libRScpp.so
 lib64/libSensorAdjustment.so
 lib64/liba3m.so
 lib64/libaffinity_jni.so
 lib64/libalsautils.so
-lib64/libandroid.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libandroid.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libandroid_runtime.so
 lib64/libandroid_servers.so
 lib64/libandroidfw.so
@@ -443,14 +443,14 @@ lib64/libarcsoft_makeup.so
 lib64/libart-compiler.so
 lib64/libart-disassembler.so
 lib64/libart.so
-lib64/libaudio-resampler.so
-lib64/libaudioeffect_jni.so
-lib64/libaudiopolicyenginedefault.so
-lib64/libaudiopolicymanager.so
-lib64/libaudiopolicymanagerdefault.so
-lib64/libaudiopolicyservice.so
-lib64/libaudioutils.so
-lib64/libbacktrace.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libaudio-resampler.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libaudioeffect_jni.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libaudiopolicyenginedefault.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libaudiopolicymanager.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libaudiopolicymanagerdefault.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libaudiopolicyservice.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libaudioutils.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libbacktrace.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libbase.so
 lib64/libbcc.so
 lib64/libbcinfo.so
@@ -464,11 +464,11 @@ lib64/libcam.common.meizu.platform.so
 lib64/libcam.common.meizu.so
 lib64/libcamera2ndk.so
 lib64/libcamera_client.so
-lib64/libcamera_metadata.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libcamera_metadata.so
 lib64/libcameraservice.so
 lib64/libcfgdevparam.so
 lib64/libcompiler_rt.so
-lib64/libcrypto.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libcrypto.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libcutils.so
 lib64/libdcfdecoderjni.so
 lib64/libdefcontainer_jni.so
@@ -484,7 +484,7 @@ lib64/libeffects_filters.so
 lib64/libeffects_mosaic.so
 lib64/libexif.so
 lib64/libexif_gallery.so
-lib64/libexpat.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libexpat.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2_blkid.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2_com_err.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libext2_e2p.so
@@ -548,12 +548,12 @@ lib64/liblzma.so
 lib64/libm.so
 lib64/libmcode_image.so
 lib64/libmdnssd.so
-lib64/libmedia.so
-lib64/libmedia_jni.so
-lib64/libmediadrm.so
-lib64/libmediandk.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libmedia.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libmedia_jni.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libmediadrm.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libmediandk.so
 lib64/libmediatek_exceptionlog.so
-lib64/libmediautils.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libmediautils.so
 lib64/libmeizucamera.so
 lib64/libmemtrack.so
 lib64/libmemunreachable.so
@@ -588,7 +588,7 @@ lib64/libphoto_process.so
 lib64/libphoto_timestamp.so
 lib64/libpiex.so
 lib64/libpixelflinger.so
-lib64/libpng.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libpng.so
 lib64/libpower.so
 lib64/libpowermanager.so
 lib64/libpparam.so
@@ -613,44 +613,44 @@ lib64/libskia.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libsoftkeymaster.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libsoftkeymasterdevice.so
 lib64/libsonic.so
-lib64/libsonivox.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libsonivox.so
 lib64/libsoundpool.so
 lib64/libsoundtrigger.so
 lib64/libsoundtriggerservice.so
 lib64/libsparse.so
 lib64/libspeexresampler.so
 lib64/libsqlite.so
-lib64/libssl.so
-lib64/libstagefright.so
-lib64/libstagefright_amrnb_common.so
-lib64/libstagefright_avc_common.so
-lib64/libstagefright_enc_common.so
-lib64/libstagefright_foundation.so
-lib64/libstagefright_http_support.so
-lib64/libstagefright_omx.so
-lib64/libstagefright_soft_aacdec.so
-lib64/libstagefright_soft_aacenc.so
-lib64/libstagefright_soft_amrdec.so
-lib64/libstagefright_soft_amrnbenc.so
-lib64/libstagefright_soft_amrwbenc.so
-lib64/libstagefright_soft_avcdec.so
-lib64/libstagefright_soft_avcenc.so
-lib64/libstagefright_soft_ffmpegadec.so
-lib64/libstagefright_soft_ffmpegvdec.so
-lib64/libstagefright_soft_flacenc.so
-lib64/libstagefright_soft_g711dec.so
-lib64/libstagefright_soft_gsmdec.so
-lib64/libstagefright_soft_hevcdec.so
-lib64/libstagefright_soft_mp3dec.so
-lib64/libstagefright_soft_mpeg2dec.so
-lib64/libstagefright_soft_mpeg4dec.so
-lib64/libstagefright_soft_mpeg4enc.so
-lib64/libstagefright_soft_opusdec.so
-lib64/libstagefright_soft_rawdec.so
-lib64/libstagefright_soft_vorbisdec.so
-lib64/libstagefright_soft_vpxdec.so
-lib64/libstagefright_soft_vpxenc.so
-lib64/libstagefright_yuv.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libssl.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_amrnb_common.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_avc_common.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_enc_common.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_foundation.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_http_support.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_omx.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_aacdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_aacenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_amrdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_amrnbenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_amrwbenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_avcdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_avcenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_ffmpegadec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_ffmpegvdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_flacenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_g711dec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_gsmdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_hevcdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_mp3dec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_mpeg2dec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_mpeg4dec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_mpeg4enc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_opusdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_rawdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_vorbisdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_vpxdec.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_soft_vpxenc.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libstagefright_yuv.so
 lib64/libstdc++.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libsurfaceflinger.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libsurfaceflinger_ddmconnection.so
@@ -664,7 +664,7 @@ lib64/libtinyalsa.so
 lib64/libtinycompress.so
 lib64/libtinyxml.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libui.so
-lib64/libunwind.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libunwind.so
 lib64/libusbhost.so
 # Build Station: use ROM-built core system lib instead of stock blob: lib64/libutils.so
 lib64/libvfb_render.so
@@ -682,7 +682,7 @@ lib64/libwilhelm.so
 lib64/libwpa_client.so
 lib64/libxml2.so
 lib64/libyv12util.so
-lib64/libz.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libz.so
 lib64/soundfx/libaudiopreprocessing.so
 lib64/soundfx/libbundlewrapper.so
 lib64/soundfx/libdownmix.so
