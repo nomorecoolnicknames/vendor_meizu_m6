@@ -203,7 +203,7 @@ vendor/lib64/libpqservice.so
 vendor/lib64/libui_ext.so
 vendor/lib64/libvcodec_utility.so
 vendor/lib64/libvcodecdrv.so
-lib/libion.so:system/vendor/lib/libion.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib/libion.so:system/vendor/lib/libion.so
 lib/libimsg_log.so:system/vendor/lib/libimsg_log.so
-lib64/libion.so:system/vendor/lib64/libion.so
+# Build Station: use ROM-built core system artifact instead of stock blob: lib64/libion.so:system/vendor/lib64/libion.so
 lib64/libimsg_log.so:system/vendor/lib64/libimsg_log.so
