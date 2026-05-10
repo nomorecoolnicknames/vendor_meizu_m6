@@ -2,614 +2,16 @@
 LOCAL_PATH := vendor/meizu/meizu_m6
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/app/Camera/lib/arm/libPanoramaStitcher.so:system/app/Camera/lib/arm/libPanoramaStitcher.so \
-    $(LOCAL_PATH)/proprietary/app/Camera/lib/arm/libglrenderer.so:system/app/Camera/lib/arm/libglrenderer.so \
-    $(LOCAL_PATH)/proprietary/app/Camera/lib/arm/libstack_shot.so:system/app/Camera/lib/arm/libstack_shot.so \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.audio.low_latency.xml:system/etc/permissions/android.hardware.audio.low_latency.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.bluetooth.xml:system/etc/permissions/android.hardware.bluetooth.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.bluetooth_le.xml:system/etc/permissions/android.hardware.bluetooth_le.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.camera.xml:system/etc/permissions/android.hardware.camera.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.faketouch.xml:system/etc/permissions/android.hardware.faketouch.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.microphone.xml:system/etc/permissions/android.hardware.microphone.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.opengles.aep.xml:system/etc/permissions/android.hardware.opengles.aep.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.sensor.accelerometer.xml:system/etc/permissions/android.hardware.sensor.accelerometer.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.sensor.compass.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.sensor.gyroscope.xml:system/etc/permissions/android.hardware.sensor.gyroscope.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.telephony.cdma.xml:system/etc/permissions/android.hardware.telephony.cdma.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.telephony.gsm.xml:system/etc/permissions/android.hardware.telephony.gsm.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.distinct.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.touchscreen.multitouch.xml:system/etc/permissions/android.hardware.touchscreen.multitouch.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.touchscreen.xml:system/etc/permissions/android.hardware.touchscreen.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.usb.accessory.xml:system/etc/permissions/android.hardware.usb.accessory.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.usb.host.xml:system/etc/permissions/android.hardware.usb.host.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.wifi.direct.xml:system/etc/permissions/android.hardware.wifi.direct.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.hardware.wifi.xml:system/etc/permissions/android.hardware.wifi.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.software.device_admin.xml:system/etc/permissions/android.software.device_admin.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.software.managed_users.xml:system/etc/permissions/android.software.managed_users.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.software.midi.xml:system/etc/permissions/android.software.midi.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/android.software.webview.xml:system/etc/permissions/android.software.webview.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/com.android.location.provider.xml:system/etc/permissions/com.android.location.provider.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/com.android.media.remotedisplay.xml:system/etc/permissions/com.android.media.remotedisplay.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/com.android.mediadrm.signer.xml:system/etc/permissions/com.android.mediadrm.signer.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/com.google.android.media.effects.xml:system/etc/permissions/com.google.android.media.effects.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.meizu.camera.xml:system/etc/permissions/com.meizu.camera.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/flyme.hardware.screen.bluelightreduction.xml:system/etc/permissions/flyme.hardware.screen.bluelightreduction.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
-    $(LOCAL_PATH)/proprietary/etc/permissions/platform.xml:system/etc/permissions/platform.xml \
-    $(LOCAL_PATH)/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.adpcmdec.so:system/lib/extend/libCodec.adpcmdec.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.adt.so:system/lib/extend/libCodec.adt.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.alacdec.so:system/lib/extend/libCodec.alacdec.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.ape.so:system/lib/extend/libCodec.ape.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.dsddec.so:system/lib/extend/libCodec.dsddec.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.dts.so:system/lib/extend/libCodec.dts.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.lpcm.so:system/lib/extend/libCodec.lpcm.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.mp3dec.so:system/lib/extend/libCodec.mp3dec.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.mp3enc.so:system/lib/extend/libCodec.mp3enc.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.mpegdec.so:system/lib/extend/libCodec.mpegdec.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.radec.so:system/lib/extend/libCodec.radec.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.raw.so:system/lib/extend/libCodec.raw.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.rvdec.so:system/lib/extend/libCodec.rvdec.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libCodec.wmadec.so:system/lib/extend/libCodec.wmadec.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.AC3.so:system/lib/extend/libExtractor.AC3.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.AIFF.so:system/lib/extend/libExtractor.AIFF.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.APE.so:system/lib/extend/libExtractor.APE.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.ASF.so:system/lib/extend/libExtractor.ASF.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.AVI.so:system/lib/extend/libExtractor.AVI.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.DTS.so:system/lib/extend/libExtractor.DTS.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.FLAC.so:system/lib/extend/libExtractor.FLAC.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.FLV.so:system/lib/extend/libExtractor.FLV.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.MP3.so:system/lib/extend/libExtractor.MP3.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.MPEG.so:system/lib/extend/libExtractor.MPEG.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.MPEG2TS.so:system/lib/extend/libExtractor.MPEG2TS.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.MPEG4.so:system/lib/extend/libExtractor.MPEG4.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.REALMEDIA.so:system/lib/extend/libExtractor.REALMEDIA.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.WAV.so:system/lib/extend/libExtractor.WAV.so \
-    $(LOCAL_PATH)/proprietary/lib/extend/libExtractor.matroska.so:system/lib/extend/libExtractor.matroska.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/audio_policy.stub.so:system/lib/hw/audio_policy.stub.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/bluetooth.default.so:system/lib/hw/bluetooth.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/fingerprint.default.so:system/lib/hw/fingerprint.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
-    $(LOCAL_PATH)/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
-    $(LOCAL_PATH)/proprietary/lib/libDominantColors.so:system/lib/libDominantColors.so \
-    $(LOCAL_PATH)/proprietary/lib/libFFTEm.so:system/lib/libFFTEm.so \
-    $(LOCAL_PATH)/proprietary/lib/libImmVibeJ.so:system/lib/libImmVibeJ.so \
-    $(LOCAL_PATH)/proprietary/lib/libMTKAudioTimeStretch.so:system/lib/libMTKAudioTimeStretch.so \
-    $(LOCAL_PATH)/proprietary/lib/libQCode.so:system/lib/libQCode.so \
-    $(LOCAL_PATH)/proprietary/lib/libSensorAdjustment.so:system/lib/libSensorAdjustment.so \
-    $(LOCAL_PATH)/proprietary/lib/liba3m.so:system/lib/liba3m.so \
-    $(LOCAL_PATH)/proprietary/lib/libaffinity_jni.so:system/lib/libaffinity_jni.so \
-    $(LOCAL_PATH)/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
-    $(LOCAL_PATH)/proprietary/lib/libandroid_servers.so:system/lib/libandroid_servers.so \
-    $(LOCAL_PATH)/proprietary/lib/libandroidfw.so:system/lib/libandroidfw.so \
-    $(LOCAL_PATH)/proprietary/lib/libarcsoft_low_light_shot.so:system/lib/libarcsoft_low_light_shot.so \
-    $(LOCAL_PATH)/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
-    $(LOCAL_PATH)/proprietary/lib/libart-compiler.so:system/lib/libart-compiler.so \
-    $(LOCAL_PATH)/proprietary/lib/libart.so:system/lib/libart.so \
-    $(LOCAL_PATH)/proprietary/lib/libaudiospdif.so:system/lib/libaudiospdif.so \
-    $(LOCAL_PATH)/proprietary/lib/libbcc.so:system/lib/libbcc.so \
-    $(LOCAL_PATH)/proprietary/lib/libbcinfo.so:system/lib/libbcinfo.so \
-    $(LOCAL_PATH)/proprietary/lib/libbinary_parse.so:system/lib/libbinary_parse.so \
-    $(LOCAL_PATH)/proprietary/lib/libblas.so:system/lib/libblas.so \
-    $(LOCAL_PATH)/proprietary/lib/libblasV8.so:system/lib/libblasV8.so \
-    $(LOCAL_PATH)/proprietary/lib/libbluetooth_jni.so:system/lib/libbluetooth_jni.so \
-    $(LOCAL_PATH)/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
-    $(LOCAL_PATH)/proprietary/lib/libc++.so:system/lib/libc++.so \
-    $(LOCAL_PATH)/proprietary/lib/libc.so:system/lib/libc.so \
-    $(LOCAL_PATH)/proprietary/lib/libc_malloc_debug.so:system/lib/libc_malloc_debug.so \
-    $(LOCAL_PATH)/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
-    $(LOCAL_PATH)/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
-    $(LOCAL_PATH)/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
-    $(LOCAL_PATH)/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
-    $(LOCAL_PATH)/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
-    $(LOCAL_PATH)/proprietary/lib/libcap.so:system/lib/libcap.so \
-    $(LOCAL_PATH)/proprietary/lib/libcfgdevparam.so:system/lib/libcfgdevparam.so \
-    $(LOCAL_PATH)/proprietary/lib/libchrome.so:system/lib/libchrome.so \
-    $(LOCAL_PATH)/proprietary/lib/libcompiler_rt.so:system/lib/libcompiler_rt.so \
-    $(LOCAL_PATH)/proprietary/lib/libcrypto_framwork.so:system/lib/libcrypto_framwork.so \
-    $(LOCAL_PATH)/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-    $(LOCAL_PATH)/proprietary/lib/libdcfdecoderjni.so:system/lib/libdcfdecoderjni.so \
-    $(LOCAL_PATH)/proprietary/lib/libdiagn.so:system/lib/libdiagn.so \
-    $(LOCAL_PATH)/proprietary/lib/libdl.so:system/lib/libdl.so \
-    $(LOCAL_PATH)/proprietary/lib/libdlna_jni.so:system/lib/libdlna_jni.so \
-    $(LOCAL_PATH)/proprietary/lib/libdng_sdk.so:system/lib/libdng_sdk.so \
-    $(LOCAL_PATH)/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
-    $(LOCAL_PATH)/proprietary/lib/libdrmframework_jni.so:system/lib/libdrmframework_jni.so \
-    $(LOCAL_PATH)/proprietary/lib/libeffects.so:system/lib/libeffects.so \
-    $(LOCAL_PATH)/proprietary/lib/libeffects_filters.so:system/lib/libeffects_filters.so \
-    $(LOCAL_PATH)/proprietary/lib/libeffects_mosaic.so:system/lib/libeffects_mosaic.so \
-    $(LOCAL_PATH)/proprietary/lib/libevent.so:system/lib/libevent.so \
-    $(LOCAL_PATH)/proprietary/lib/libexif.so:system/lib/libexif.so \
-    $(LOCAL_PATH)/proprietary/lib/libexif_gallery.so:system/lib/libexif_gallery.so \
-    $(LOCAL_PATH)/proprietary/lib/libffmpeg_utils.so:system/lib/libffmpeg_utils.so \
-    $(LOCAL_PATH)/proprietary/lib/libfilterUtils.so:system/lib/libfilterUtils.so \
-    $(LOCAL_PATH)/proprietary/lib/libfilter_effects.so:system/lib/libfilter_effects.so \
-    $(LOCAL_PATH)/proprietary/lib/libfilterfw.so:system/lib/libfilterfw.so \
-    $(LOCAL_PATH)/proprietary/lib/libfilterpack_imageproc.so:system/lib/libfilterpack_imageproc.so \
-    $(LOCAL_PATH)/proprietary/lib/libft2.so:system/lib/libft2.so \
-    $(LOCAL_PATH)/proprietary/lib/libgabi++.so:system/lib/libgabi++.so \
-    $(LOCAL_PATH)/proprietary/lib/libgatekeeper.so:system/lib/libgatekeeper.so \
-    $(LOCAL_PATH)/proprietary/lib/libglrenderer.so:system/lib/libglrenderer.so \
-    $(LOCAL_PATH)/proprietary/lib/libharfbuzz_ng.so:system/lib/libharfbuzz_ng.so \
-    $(LOCAL_PATH)/proprietary/lib/libhwui.so:system/lib/libhwui.so \
-    $(LOCAL_PATH)/proprietary/lib/libicui18n.so:system/lib/libicui18n.so \
-    $(LOCAL_PATH)/proprietary/lib/libicuuc.so:system/lib/libicuuc.so \
-    $(LOCAL_PATH)/proprietary/lib/libifaa_jni.so:system/lib/libifaa_jni.so \
-    $(LOCAL_PATH)/proprietary/lib/libimage_codec.so:system/lib/libimage_codec.so \
-    $(LOCAL_PATH)/proprietary/lib/libimage_dehazing.so:system/lib/libimage_dehazing.so \
-    $(LOCAL_PATH)/proprietary/lib/libimage_type_recognition.so:system/lib/libimage_type_recognition.so \
-    $(LOCAL_PATH)/proprietary/lib/libimageproc.so:system/lib/libimageproc.so \
-    $(LOCAL_PATH)/proprietary/lib/libimg_utils.so:system/lib/libimg_utils.so \
-    $(LOCAL_PATH)/proprietary/lib/libimsg_log.so:system/lib/libimsg_log.so \
-    $(LOCAL_PATH)/proprietary/lib/libinput.so:system/lib/libinput.so \
-    $(LOCAL_PATH)/proprietary/lib/libinputflinger.so:system/lib/libinputflinger.so \
-    $(LOCAL_PATH)/proprietary/lib/libinputservice.so:system/lib/libinputservice.so \
-    $(LOCAL_PATH)/proprietary/lib/libion.so:system/lib/libion.so \
-    $(LOCAL_PATH)/proprietary/lib/libiprouteutil.so:system/lib/libiprouteutil.so \
-    $(LOCAL_PATH)/proprietary/lib/libja3m.so:system/lib/libja3m.so \
-    $(LOCAL_PATH)/proprietary/lib/libjavacore.so:system/lib/libjavacore.so \
-    $(LOCAL_PATH)/proprietary/lib/libjavacrypto.so:system/lib/libjavacrypto.so \
-    $(LOCAL_PATH)/proprietary/lib/libjni_gauss_blur.so:system/lib/libjni_gauss_blur.so \
-    $(LOCAL_PATH)/proprietary/lib/libjni_systemui.so:system/lib/libjni_systemui.so \
-    $(LOCAL_PATH)/proprietary/lib/libjni_systemuiex.so:system/lib/libjni_systemuiex.so \
-    $(LOCAL_PATH)/proprietary/lib/libjnigraphics.so:system/lib/libjnigraphics.so \
-    $(LOCAL_PATH)/proprietary/lib/libjpeg.so:system/lib/libjpeg.so \
-    $(LOCAL_PATH)/proprietary/lib/liblogwrap.so:system/lib/liblogwrap.so \
-    $(LOCAL_PATH)/proprietary/lib/liblz4.so:system/lib/liblz4.so \
-    $(LOCAL_PATH)/proprietary/lib/liblzma.so:system/lib/liblzma.so \
-    $(LOCAL_PATH)/proprietary/lib/libm.so:system/lib/libm.so \
-    $(LOCAL_PATH)/proprietary/lib/libmcode_image.so:system/lib/libmcode_image.so \
-    $(LOCAL_PATH)/proprietary/lib/libmdnssd.so:system/lib/libmdnssd.so \
-    $(LOCAL_PATH)/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
     $(LOCAL_PATH)/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
-    $(LOCAL_PATH)/proprietary/lib/libmemtrack.so:system/lib/libmemtrack.so \
-    $(LOCAL_PATH)/proprietary/lib/libmemunreachable.so:system/lib/libmemunreachable.so \
-    $(LOCAL_PATH)/proprietary/lib/libminijail.so:system/lib/libminijail.so \
-    $(LOCAL_PATH)/proprietary/lib/libminikin.so:system/lib/libminikin.so \
-    $(LOCAL_PATH)/proprietary/lib/libmisc.so:system/lib/libmisc.so \
-    $(LOCAL_PATH)/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
-    $(LOCAL_PATH)/proprietary/lib/libmtp.so:system/lib/libmtp.so \
-    $(LOCAL_PATH)/proprietary/lib/libnative_blur.so:system/lib/libnative_blur.so \
-    $(LOCAL_PATH)/proprietary/lib/libnativebridge.so:system/lib/libnativebridge.so \
-    $(LOCAL_PATH)/proprietary/lib/libnativehelper.so:system/lib/libnativehelper.so \
-    $(LOCAL_PATH)/proprietary/lib/libnativeloader.so:system/lib/libnativeloader.so \
-    $(LOCAL_PATH)/proprietary/lib/libnbaio.so:system/lib/libnbaio.so \
-    $(LOCAL_PATH)/proprietary/lib/libnetd_client.so:system/lib/libnetd_client.so \
-    $(LOCAL_PATH)/proprietary/lib/libnetlink.so:system/lib/libnetlink.so \
-    $(LOCAL_PATH)/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
-    $(LOCAL_PATH)/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
-    $(LOCAL_PATH)/proprietary/lib/libnicipher.so:system/lib/libnicipher.so \
-    $(LOCAL_PATH)/proprietary/lib/libnl.so:system/lib/libnl.so \
-    $(LOCAL_PATH)/proprietary/lib/libopenjdk.so:system/lib/libopenjdk.so \
-    $(LOCAL_PATH)/proprietary/lib/libopenjdkjvm.so:system/lib/libopenjdkjvm.so \
-    $(LOCAL_PATH)/proprietary/lib/libopus.so:system/lib/libopus.so \
-    $(LOCAL_PATH)/proprietary/lib/libpac.so:system/lib/libpac.so \
-    $(LOCAL_PATH)/proprietary/lib/libpackagelistparser.so:system/lib/libpackagelistparser.so \
-    $(LOCAL_PATH)/proprietary/lib/libpcre.so:system/lib/libpcre.so \
-    $(LOCAL_PATH)/proprietary/lib/libpdfium.so:system/lib/libpdfium.so \
-    $(LOCAL_PATH)/proprietary/lib/libphoto_process.so:system/lib/libphoto_process.so \
-    $(LOCAL_PATH)/proprietary/lib/libphoto_timestamp.so:system/lib/libphoto_timestamp.so \
-    $(LOCAL_PATH)/proprietary/lib/libpiex.so:system/lib/libpiex.so \
-    $(LOCAL_PATH)/proprietary/lib/libpixelflinger.so:system/lib/libpixelflinger.so \
-    $(LOCAL_PATH)/proprietary/lib/libpower.so:system/lib/libpower.so \
-    $(LOCAL_PATH)/proprietary/lib/libpowermanager.so:system/lib/libpowermanager.so \
-    $(LOCAL_PATH)/proprietary/lib/libprocessgroup.so:system/lib/libprocessgroup.so \
-    $(LOCAL_PATH)/proprietary/lib/libprotobuf-cpp-full.so:system/lib/libprotobuf-cpp-full.so \
-    $(LOCAL_PATH)/proprietary/lib/libprotobuf-cpp-lite.so:system/lib/libprotobuf-cpp-lite.so \
-    $(LOCAL_PATH)/proprietary/lib/libradio.so:system/lib/libradio.so \
-    $(LOCAL_PATH)/proprietary/lib/libradio_metadata.so:system/lib/libradio_metadata.so \
-    $(LOCAL_PATH)/proprietary/lib/libradioservice.so:system/lib/libradioservice.so \
-    $(LOCAL_PATH)/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
-    $(LOCAL_PATH)/proprietary/lib/librender_engine.so:system/lib/librender_engine.so \
-    $(LOCAL_PATH)/proprietary/lib/libresourcemanagerservice.so:system/lib/libresourcemanagerservice.so \
-    $(LOCAL_PATH)/proprietary/lib/libril.so:system/lib/libril.so \
-    $(LOCAL_PATH)/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-    $(LOCAL_PATH)/proprietary/lib/librs_jni.so:system/lib/librs_jni.so \
-    $(LOCAL_PATH)/proprietary/lib/librtp_jni.so:system/lib/librtp_jni.so \
-    $(LOCAL_PATH)/proprietary/lib/libselinux.so:system/lib/libselinux.so \
-    $(LOCAL_PATH)/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
-    $(LOCAL_PATH)/proprietary/lib/libserviceutility.so:system/lib/libserviceutility.so \
-    $(LOCAL_PATH)/proprietary/lib/libsffmpeg.so:system/lib/libsffmpeg.so \
-    $(LOCAL_PATH)/proprietary/lib/libsigchain.so:system/lib/libsigchain.so \
-    $(LOCAL_PATH)/proprietary/lib/libskia.so:system/lib/libskia.so \
-    $(LOCAL_PATH)/proprietary/lib/libsonic.so:system/lib/libsonic.so \
-    $(LOCAL_PATH)/proprietary/lib/libsoundpool.so:system/lib/libsoundpool.so \
-    $(LOCAL_PATH)/proprietary/lib/libsoundtrigger.so:system/lib/libsoundtrigger.so \
-    $(LOCAL_PATH)/proprietary/lib/libsoundtriggerservice.so:system/lib/libsoundtriggerservice.so \
-    $(LOCAL_PATH)/proprietary/lib/libspeexresampler.so:system/lib/libspeexresampler.so \
-    $(LOCAL_PATH)/proprietary/lib/libsqlite.so:system/lib/libsqlite.so \
-    $(LOCAL_PATH)/proprietary/lib/libstdc++.so:system/lib/libstdc++.so \
-    $(LOCAL_PATH)/proprietary/lib/libsurfacetexture_bitmap.so:system/lib/libsurfacetexture_bitmap.so \
-    $(LOCAL_PATH)/proprietary/lib/libsuspend.so:system/lib/libsuspend.so \
-    $(LOCAL_PATH)/proprietary/lib/libsync.so:system/lib/libsync.so \
-    $(LOCAL_PATH)/proprietary/lib/libsysutils.so:system/lib/libsysutils.so \
-    $(LOCAL_PATH)/proprietary/lib/libtaglib.so:system/lib/libtaglib.so \
-    $(LOCAL_PATH)/proprietary/lib/libtiff.so:system/lib/libtiff.so \
-    $(LOCAL_PATH)/proprietary/lib/libtiff_directory.so:system/lib/libtiff_directory.so \
-    $(LOCAL_PATH)/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    $(LOCAL_PATH)/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    $(LOCAL_PATH)/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
-    $(LOCAL_PATH)/proprietary/lib/libusbhost.so:system/lib/libusbhost.so \
-    $(LOCAL_PATH)/proprietary/lib/libvfb_render.so:system/lib/libvfb_render.so \
-    $(LOCAL_PATH)/proprietary/lib/libvixl.so:system/lib/libvixl.so \
-    $(LOCAL_PATH)/proprietary/lib/libvorbisidec.so:system/lib/libvorbisidec.so \
-    $(LOCAL_PATH)/proprietary/lib/libvulkan.so:system/lib/libvulkan.so \
-    $(LOCAL_PATH)/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
-    $(LOCAL_PATH)/proprietary/lib/libwebviewchromium_loader.so:system/lib/libwebviewchromium_loader.so \
-    $(LOCAL_PATH)/proprietary/lib/libwebviewchromium_plat_support.so:system/lib/libwebviewchromium_plat_support.so \
-    $(LOCAL_PATH)/proprietary/lib/libweexjsb.so:system/lib/libweexjsb.so \
-    $(LOCAL_PATH)/proprietary/lib/libweexjsc.so:system/lib/libweexjsc.so \
-    $(LOCAL_PATH)/proprietary/lib/libweexjss.so:system/lib/libweexjss.so \
-    $(LOCAL_PATH)/proprietary/lib/libweexjst.so:system/lib/libweexjst.so \
-    $(LOCAL_PATH)/proprietary/lib/libwifi-service.so:system/lib/libwifi-service.so \
-    $(LOCAL_PATH)/proprietary/lib/libwilhelm.so:system/lib/libwilhelm.so \
-    $(LOCAL_PATH)/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
-    $(LOCAL_PATH)/proprietary/lib/libxml2.so:system/lib/libxml2.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libbassboostMz.so:system/lib/soundfx/libbassboostMz.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libequalizerMz.so:system/lib/soundfx/libequalizerMz.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/liblivemusicMz.so:system/lib/soundfx/liblivemusicMz.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libvirtualizerMz.so:system/lib/soundfx/libvirtualizerMz.so \
-    $(LOCAL_PATH)/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
-    $(LOCAL_PATH)/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libCodec.adpcmdec.so:system/lib64/extend/libCodec.adpcmdec.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libCodec.adt.so:system/lib64/extend/libCodec.adt.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libCodec.lpcm.so:system/lib64/extend/libCodec.lpcm.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libCodec.mp3enc.so:system/lib64/extend/libCodec.mp3enc.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libCodec.raw.so:system/lib64/extend/libCodec.raw.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.AC3.so:system/lib64/extend/libExtractor.AC3.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.AIFF.so:system/lib64/extend/libExtractor.AIFF.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.APE.so:system/lib64/extend/libExtractor.APE.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.ASF.so:system/lib64/extend/libExtractor.ASF.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.AVI.so:system/lib64/extend/libExtractor.AVI.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.FLAC.so:system/lib64/extend/libExtractor.FLAC.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.FLV.so:system/lib64/extend/libExtractor.FLV.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.MP3.so:system/lib64/extend/libExtractor.MP3.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.MPEG.so:system/lib64/extend/libExtractor.MPEG.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.MPEG2TS.so:system/lib64/extend/libExtractor.MPEG2TS.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.MPEG4.so:system/lib64/extend/libExtractor.MPEG4.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.REALMEDIA.so:system/lib64/extend/libExtractor.REALMEDIA.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.WAV.so:system/lib64/extend/libExtractor.WAV.so \
-    $(LOCAL_PATH)/proprietary/lib64/extend/libExtractor.matroska.so:system/lib64/extend/libExtractor.matroska.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/audio.primary.default.so:system/lib64/hw/audio.primary.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/audio.r_submix.default.so:system/lib64/hw/audio.r_submix.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/audio.usb.default.so:system/lib64/hw/audio.usb.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/audio_policy.default.so:system/lib64/hw/audio_policy.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/audio_policy.stub.so:system/lib64/hw/audio_policy.stub.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/camera.default.so:system/lib64/hw/camera.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/fingerprint.default.so:system/lib64/hw/fingerprint.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/gralloc.default.so:system/lib64/hw/gralloc.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/keystore.default.so:system/lib64/hw/keystore.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/local_time.default.so:system/lib64/hw/local_time.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/power.default.so:system/lib64/hw/power.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/swfingerprint.default.so:system/lib64/hw/swfingerprint.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/hw/vibrator.default.so:system/lib64/hw/vibrator.default.so \
-    $(LOCAL_PATH)/proprietary/lib64/libDominantColors.so:system/lib64/libDominantColors.so \
-    $(LOCAL_PATH)/proprietary/lib64/libFFTEm.so:system/lib64/libFFTEm.so \
-    $(LOCAL_PATH)/proprietary/lib64/libImmVibeJ.so:system/lib64/libImmVibeJ.so \
-    $(LOCAL_PATH)/proprietary/lib64/libMTKAudioTimeStretch.so:system/lib64/libMTKAudioTimeStretch.so \
-    $(LOCAL_PATH)/proprietary/lib64/libQCode.so:system/lib64/libQCode.so \
-    $(LOCAL_PATH)/proprietary/lib64/libSensorAdjustment.so:system/lib64/libSensorAdjustment.so \
-    $(LOCAL_PATH)/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
-    $(LOCAL_PATH)/proprietary/lib64/libaffinity_jni.so:system/lib64/libaffinity_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libalsautils.so:system/lib64/libalsautils.so \
-    $(LOCAL_PATH)/proprietary/lib64/libandroid_servers.so:system/lib64/libandroid_servers.so \
-    $(LOCAL_PATH)/proprietary/lib64/libandroidfw.so:system/lib64/libandroidfw.so \
-    $(LOCAL_PATH)/proprietary/lib64/libappfuse_jni.so:system/lib64/libappfuse_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libarcsoft_low_light_shot.so:system/lib64/libarcsoft_low_light_shot.so \
-    $(LOCAL_PATH)/proprietary/lib64/libarcsoft_makeup.so:system/lib64/libarcsoft_makeup.so \
-    $(LOCAL_PATH)/proprietary/lib64/libart-compiler.so:system/lib64/libart-compiler.so \
-    $(LOCAL_PATH)/proprietary/lib64/libart-disassembler.so:system/lib64/libart-disassembler.so \
-    $(LOCAL_PATH)/proprietary/lib64/libart.so:system/lib64/libart.so \
-    $(LOCAL_PATH)/proprietary/lib64/libbcc.so:system/lib64/libbcc.so \
-    $(LOCAL_PATH)/proprietary/lib64/libbcinfo.so:system/lib64/libbcinfo.so \
-    $(LOCAL_PATH)/proprietary/lib64/libbinary_parse.so:system/lib64/libbinary_parse.so \
-    $(LOCAL_PATH)/proprietary/lib64/libblas.so:system/lib64/libblas.so \
-    $(LOCAL_PATH)/proprietary/lib64/libc++.so:system/lib64/libc++.so \
-    $(LOCAL_PATH)/proprietary/lib64/libc.so:system/lib64/libc.so \
-    $(LOCAL_PATH)/proprietary/lib64/libc_malloc_debug.so:system/lib64/libc_malloc_debug.so \
-    $(LOCAL_PATH)/proprietary/lib64/libcam.common.meizu.platform.so:system/lib64/libcam.common.meizu.platform.so \
-    $(LOCAL_PATH)/proprietary/lib64/libcam.common.meizu.so:system/lib64/libcam.common.meizu.so \
-    $(LOCAL_PATH)/proprietary/lib64/libcamera2ndk.so:system/lib64/libcamera2ndk.so \
-    $(LOCAL_PATH)/proprietary/lib64/libcamera_client.so:system/lib64/libcamera_client.so \
-    $(LOCAL_PATH)/proprietary/lib64/libcameraservice.so:system/lib64/libcameraservice.so \
-    $(LOCAL_PATH)/proprietary/lib64/libcfgdevparam.so:system/lib64/libcfgdevparam.so \
-    $(LOCAL_PATH)/proprietary/lib64/libcompiler_rt.so:system/lib64/libcompiler_rt.so \
-    $(LOCAL_PATH)/proprietary/lib64/libdcfdecoderjni.so:system/lib64/libdcfdecoderjni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libdefcontainer_jni.so:system/lib64/libdefcontainer_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libdiagn.so:system/lib64/libdiagn.so \
-    $(LOCAL_PATH)/proprietary/lib64/libdiskconfig.so:system/lib64/libdiskconfig.so \
-    $(LOCAL_PATH)/proprietary/lib64/libdl.so:system/lib64/libdl.so \
-    $(LOCAL_PATH)/proprietary/lib64/libdlna_jni.so:system/lib64/libdlna_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libdng_sdk.so:system/lib64/libdng_sdk.so \
-    $(LOCAL_PATH)/proprietary/lib64/libdrmframework.so:system/lib64/libdrmframework.so \
-    $(LOCAL_PATH)/proprietary/lib64/libdrmframework_jni.so:system/lib64/libdrmframework_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libeffects.so:system/lib64/libeffects.so \
-    $(LOCAL_PATH)/proprietary/lib64/libeffects_filters.so:system/lib64/libeffects_filters.so \
-    $(LOCAL_PATH)/proprietary/lib64/libeffects_mosaic.so:system/lib64/libeffects_mosaic.so \
-    $(LOCAL_PATH)/proprietary/lib64/libexif.so:system/lib64/libexif.so \
-    $(LOCAL_PATH)/proprietary/lib64/libexif_gallery.so:system/lib64/libexif_gallery.so \
-    $(LOCAL_PATH)/proprietary/lib64/libf2fs_sparseblock.so:system/lib64/libf2fs_sparseblock.so \
-    $(LOCAL_PATH)/proprietary/lib64/libffmpeg_utils.so:system/lib64/libffmpeg_utils.so \
-    $(LOCAL_PATH)/proprietary/lib64/libfilterUtils.so:system/lib64/libfilterUtils.so \
-    $(LOCAL_PATH)/proprietary/lib64/libfilter_effects.so:system/lib64/libfilter_effects.so \
-    $(LOCAL_PATH)/proprietary/lib64/libfilterfw.so:system/lib64/libfilterfw.so \
-    $(LOCAL_PATH)/proprietary/lib64/libfilterpack_facedetect.so:system/lib64/libfilterpack_facedetect.so \
-    $(LOCAL_PATH)/proprietary/lib64/libfilterpack_imageproc.so:system/lib64/libfilterpack_imageproc.so \
-    $(LOCAL_PATH)/proprietary/lib64/libft2.so:system/lib64/libft2.so \
-    $(LOCAL_PATH)/proprietary/lib64/libgabi++.so:system/lib64/libgabi++.so \
-    $(LOCAL_PATH)/proprietary/lib64/libgatekeeper.so:system/lib64/libgatekeeper.so \
-    $(LOCAL_PATH)/proprietary/lib64/libgf_algo.so:system/lib64/libgf_algo.so \
-    $(LOCAL_PATH)/proprietary/lib64/libgf_ca.so:system/lib64/libgf_ca.so \
-    $(LOCAL_PATH)/proprietary/lib64/libgf_hal.so:system/lib64/libgf_hal.so \
-    $(LOCAL_PATH)/proprietary/lib64/libglrenderer.so:system/lib64/libglrenderer.so \
-    $(LOCAL_PATH)/proprietary/lib64/libgoodixfingerprintd_binder.so:system/lib64/libgoodixfingerprintd_binder.so \
-    $(LOCAL_PATH)/proprietary/lib64/libharfbuzz_ng.so:system/lib64/libharfbuzz_ng.so \
-    $(LOCAL_PATH)/proprietary/lib64/libhidcommand_jni.so:system/lib64/libhidcommand_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libhwui.so:system/lib64/libhwui.so \
-    $(LOCAL_PATH)/proprietary/lib64/libicui18n.so:system/lib64/libicui18n.so \
-    $(LOCAL_PATH)/proprietary/lib64/libicuuc.so:system/lib64/libicuuc.so \
-    $(LOCAL_PATH)/proprietary/lib64/libifaa_jni.so:system/lib64/libifaa_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libimage_codec.so:system/lib64/libimage_codec.so \
-    $(LOCAL_PATH)/proprietary/lib64/libimage_dehazing.so:system/lib64/libimage_dehazing.so \
-    $(LOCAL_PATH)/proprietary/lib64/libimage_type_recognition.so:system/lib64/libimage_type_recognition.so \
-    $(LOCAL_PATH)/proprietary/lib64/libimageproc.so:system/lib64/libimageproc.so \
-    $(LOCAL_PATH)/proprietary/lib64/libimg_utils.so:system/lib64/libimg_utils.so \
-    $(LOCAL_PATH)/proprietary/lib64/libimsg_log.so:system/lib64/libimsg_log.so \
-    $(LOCAL_PATH)/proprietary/lib64/libinput.so:system/lib64/libinput.so \
-    $(LOCAL_PATH)/proprietary/lib64/libinputflinger.so:system/lib64/libinputflinger.so \
-    $(LOCAL_PATH)/proprietary/lib64/libinputservice.so:system/lib64/libinputservice.so \
-    $(LOCAL_PATH)/proprietary/lib64/libion.so:system/lib64/libion.so \
-    $(LOCAL_PATH)/proprietary/lib64/libiprouteutil.so:system/lib64/libiprouteutil.so \
-    $(LOCAL_PATH)/proprietary/lib64/libja3m.so:system/lib64/libja3m.so \
-    $(LOCAL_PATH)/proprietary/lib64/libjavacore.so:system/lib64/libjavacore.so \
-    $(LOCAL_PATH)/proprietary/lib64/libjavacrypto.so:system/lib64/libjavacrypto.so \
-    $(LOCAL_PATH)/proprietary/lib64/libjni_pacprocessor.so:system/lib64/libjni_pacprocessor.so \
-    $(LOCAL_PATH)/proprietary/lib64/libjni_systemui.so:system/lib64/libjni_systemui.so \
-    $(LOCAL_PATH)/proprietary/lib64/libjni_systemuiex.so:system/lib64/libjni_systemuiex.so \
-    $(LOCAL_PATH)/proprietary/lib64/libjnigraphics.so:system/lib64/libjnigraphics.so \
-    $(LOCAL_PATH)/proprietary/lib64/libjpeg.so:system/lib64/libjpeg.so \
-    $(LOCAL_PATH)/proprietary/lib64/liblogwrap.so:system/lib64/liblogwrap.so \
-    $(LOCAL_PATH)/proprietary/lib64/liblz4.so:system/lib64/liblz4.so \
-    $(LOCAL_PATH)/proprietary/lib64/liblzma.so:system/lib64/liblzma.so \
-    $(LOCAL_PATH)/proprietary/lib64/libm.so:system/lib64/libm.so \
-    $(LOCAL_PATH)/proprietary/lib64/libmcode_image.so:system/lib64/libmcode_image.so \
-    $(LOCAL_PATH)/proprietary/lib64/libmdnssd.so:system/lib64/libmdnssd.so \
-    $(LOCAL_PATH)/proprietary/lib64/libmediatek_exceptionlog.so:system/lib64/libmediatek_exceptionlog.so \
     $(LOCAL_PATH)/proprietary/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
-    $(LOCAL_PATH)/proprietary/lib64/libmemtrack.so:system/lib64/libmemtrack.so \
-    $(LOCAL_PATH)/proprietary/lib64/libmemunreachable.so:system/lib64/libmemunreachable.so \
-    $(LOCAL_PATH)/proprietary/lib64/libminikin.so:system/lib64/libminikin.so \
-    $(LOCAL_PATH)/proprietary/lib64/libmisc.so:system/lib64/libmisc.so \
-    $(LOCAL_PATH)/proprietary/lib64/libmpbase.so:system/lib64/libmpbase.so \
-    $(LOCAL_PATH)/proprietary/lib64/libmtp.so:system/lib64/libmtp.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnative_blur.so:system/lib64/libnative_blur.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnativebridge.so:system/lib64/libnativebridge.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnativehelper.so:system/lib64/libnativehelper.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnativeloader.so:system/lib64/libnativeloader.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnbaio.so:system/lib64/libnbaio.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnetd_client.so:system/lib64/libnetd_client.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnetdaidl.so:system/lib64/libnetdaidl.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnetlink.so:system/lib64/libnetlink.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnetworklocation.so:system/lib64/libnetworklocation.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnicipher.so:system/lib64/libnicipher.so \
-    $(LOCAL_PATH)/proprietary/lib64/libnl.so:system/lib64/libnl.so \
-    $(LOCAL_PATH)/proprietary/lib64/libopenjdk.so:system/lib64/libopenjdk.so \
-    $(LOCAL_PATH)/proprietary/lib64/libopenjdkjvm.so:system/lib64/libopenjdkjvm.so \
-    $(LOCAL_PATH)/proprietary/lib64/libopenshort.so:system/lib64/libopenshort.so \
-    $(LOCAL_PATH)/proprietary/lib64/libopus.so:system/lib64/libopus.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpac.so:system/lib64/libpac.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpackagelistparser.so:system/lib64/libpackagelistparser.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpagemap.so:system/lib64/libpagemap.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpcre.so:system/lib64/libpcre.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpcrecpp.so:system/lib64/libpcrecpp.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpdfium.so:system/lib64/libpdfium.so \
-    $(LOCAL_PATH)/proprietary/lib64/libphoto_process.so:system/lib64/libphoto_process.so \
-    $(LOCAL_PATH)/proprietary/lib64/libphoto_timestamp.so:system/lib64/libphoto_timestamp.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpiex.so:system/lib64/libpiex.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpixelflinger.so:system/lib64/libpixelflinger.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpower.so:system/lib64/libpower.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpowermanager.so:system/lib64/libpowermanager.so \
-    $(LOCAL_PATH)/proprietary/lib64/libpparam.so:system/lib64/libpparam.so \
-    $(LOCAL_PATH)/proprietary/lib64/libprintspooler_jni.so:system/lib64/libprintspooler_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libprocessgroup.so:system/lib64/libprocessgroup.so \
-    $(LOCAL_PATH)/proprietary/lib64/libprotobuf-cpp-lite.so:system/lib64/libprotobuf-cpp-lite.so \
-    $(LOCAL_PATH)/proprietary/lib64/libradio.so:system/lib64/libradio.so \
-    $(LOCAL_PATH)/proprietary/lib64/libradio_metadata.so:system/lib64/libradio_metadata.so \
-    $(LOCAL_PATH)/proprietary/lib64/libradioservice.so:system/lib64/libradioservice.so \
-    $(LOCAL_PATH)/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
-    $(LOCAL_PATH)/proprietary/lib64/librender_engine.so:system/lib64/librender_engine.so \
-    $(LOCAL_PATH)/proprietary/lib64/libril.so:system/lib64/libril.so \
-    $(LOCAL_PATH)/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
-    $(LOCAL_PATH)/proprietary/lib64/librs_jni.so:system/lib64/librs_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/librtp_jni.so:system/lib64/librtp_jni.so \
-    $(LOCAL_PATH)/proprietary/lib64/libselinux.so:system/lib64/libselinux.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
-    $(LOCAL_PATH)/proprietary/lib64/libserviceutility.so:system/lib64/libserviceutility.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsffmpeg.so:system/lib64/libsffmpeg.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsigchain.so:system/lib64/libsigchain.so \
-    $(LOCAL_PATH)/proprietary/lib64/libskia.so:system/lib64/libskia.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsonic.so:system/lib64/libsonic.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsoundpool.so:system/lib64/libsoundpool.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsoundtrigger.so:system/lib64/libsoundtrigger.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsoundtriggerservice.so:system/lib64/libsoundtriggerservice.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsparse.so:system/lib64/libsparse.so \
-    $(LOCAL_PATH)/proprietary/lib64/libspeexresampler.so:system/lib64/libspeexresampler.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsqlite.so:system/lib64/libsqlite.so \
-    $(LOCAL_PATH)/proprietary/lib64/libstdc++.so:system/lib64/libstdc++.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsuspend.so:system/lib64/libsuspend.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsync.so:system/lib64/libsync.so \
-    $(LOCAL_PATH)/proprietary/lib64/libsysutils.so:system/lib64/libsysutils.so \
-    $(LOCAL_PATH)/proprietary/lib64/libtaglib.so:system/lib64/libtaglib.so \
-    $(LOCAL_PATH)/proprietary/lib64/libtiff.so:system/lib64/libtiff.so \
-    $(LOCAL_PATH)/proprietary/lib64/libtiff_directory.so:system/lib64/libtiff_directory.so \
-    $(LOCAL_PATH)/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
-    $(LOCAL_PATH)/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
-    $(LOCAL_PATH)/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
-    $(LOCAL_PATH)/proprietary/lib64/libusbhost.so:system/lib64/libusbhost.so \
-    $(LOCAL_PATH)/proprietary/lib64/libvfb_render.so:system/lib64/libvfb_render.so \
-    $(LOCAL_PATH)/proprietary/lib64/libvixl.so:system/lib64/libvixl.so \
-    $(LOCAL_PATH)/proprietary/lib64/libvlife_media.so:system/lib64/libvlife_media.so \
-    $(LOCAL_PATH)/proprietary/lib64/libvlife_openglutil.so:system/lib64/libvlife_openglutil.so \
-    $(LOCAL_PATH)/proprietary/lib64/libvlife_render.so:system/lib64/libvlife_render.so \
-    $(LOCAL_PATH)/proprietary/lib64/libvorbisidec.so:system/lib64/libvorbisidec.so \
-    $(LOCAL_PATH)/proprietary/lib64/libvulkan.so:system/lib64/libvulkan.so \
-    $(LOCAL_PATH)/proprietary/lib64/libwebrtc_audio_preprocessing.so:system/lib64/libwebrtc_audio_preprocessing.so \
-    $(LOCAL_PATH)/proprietary/lib64/libwebviewchromium_loader.so:system/lib64/libwebviewchromium_loader.so \
-    $(LOCAL_PATH)/proprietary/lib64/libwebviewchromium_plat_support.so:system/lib64/libwebviewchromium_plat_support.so \
-    $(LOCAL_PATH)/proprietary/lib64/libwifi-service.so:system/lib64/libwifi-service.so \
-    $(LOCAL_PATH)/proprietary/lib64/libwilhelm.so:system/lib64/libwilhelm.so \
-    $(LOCAL_PATH)/proprietary/lib64/libwpa_client.so:system/lib64/libwpa_client.so \
-    $(LOCAL_PATH)/proprietary/lib64/libxml2.so:system/lib64/libxml2.so \
-    $(LOCAL_PATH)/proprietary/lib64/libyv12util.so:system/lib64/libyv12util.so \
-    $(LOCAL_PATH)/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
-    $(LOCAL_PATH)/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
-    $(LOCAL_PATH)/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
-    $(LOCAL_PATH)/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
-    $(LOCAL_PATH)/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
-    $(LOCAL_PATH)/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
-    $(LOCAL_PATH)/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
-    $(LOCAL_PATH)/proprietary/vendor/bin/MPED:system/vendor/bin/MPED \
-    $(LOCAL_PATH)/proprietary/vendor/bin/MtkCodecService:system/vendor/bin/MtkCodecService \
-    $(LOCAL_PATH)/proprietary/vendor/bin/aal:system/vendor/bin/aal \
-    $(LOCAL_PATH)/proprietary/vendor/bin/aee:system/vendor/bin/aee \
-    $(LOCAL_PATH)/proprietary/vendor/bin/aee_archive:system/vendor/bin/aee_archive \
-    $(LOCAL_PATH)/proprietary/vendor/bin/aee_core_forwarder:system/vendor/bin/aee_core_forwarder \
-    $(LOCAL_PATH)/proprietary/vendor/bin/aee_dumpstate:system/vendor/bin/aee_dumpstate \
-    $(LOCAL_PATH)/proprietary/vendor/bin/akmd09911:system/vendor/bin/akmd09911 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/akmd8963:system/vendor/bin/akmd8963 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/akmd8975:system/vendor/bin/akmd8975 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/ami304d:system/vendor/bin/ami304d \
-    $(LOCAL_PATH)/proprietary/vendor/bin/atci_service:system/vendor/bin/atci_service \
-    $(LOCAL_PATH)/proprietary/vendor/bin/atcid:system/vendor/bin/atcid \
-    $(LOCAL_PATH)/proprietary/vendor/bin/audiocmdservice_atci:system/vendor/bin/audiocmdservice_atci \
-    $(LOCAL_PATH)/proprietary/vendor/bin/autobt:system/vendor/bin/autobt \
-    $(LOCAL_PATH)/proprietary/vendor/bin/autokd:system/vendor/bin/autokd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/batterywarning:system/vendor/bin/batterywarning \
-    $(LOCAL_PATH)/proprietary/vendor/bin/bmm050d:system/vendor/bin/bmm050d \
-    $(LOCAL_PATH)/proprietary/vendor/bin/boot_logo_updater:system/vendor/bin/boot_logo_updater \
-    $(LOCAL_PATH)/proprietary/vendor/bin/ccci_fsd:system/vendor/bin/ccci_fsd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/ccci_mdinit:system/vendor/bin/ccci_mdinit \
-    $(LOCAL_PATH)/proprietary/vendor/bin/charon:system/vendor/bin/charon \
-    $(LOCAL_PATH)/proprietary/vendor/bin/dhcp6c:system/vendor/bin/dhcp6c \
-    $(LOCAL_PATH)/proprietary/vendor/bin/dhcp6ctl:system/vendor/bin/dhcp6ctl \
-    $(LOCAL_PATH)/proprietary/vendor/bin/dhcp6s:system/vendor/bin/dhcp6s \
-    $(LOCAL_PATH)/proprietary/vendor/bin/dm_agent_binder:system/vendor/bin/dm_agent_binder \
-    $(LOCAL_PATH)/proprietary/vendor/bin/dmlog:system/vendor/bin/dmlog \
-    $(LOCAL_PATH)/proprietary/vendor/bin/downloader:system/vendor/bin/downloader \
-    $(LOCAL_PATH)/proprietary/vendor/bin/emdlogger1:system/vendor/bin/emdlogger1 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/emdlogger2:system/vendor/bin/emdlogger2 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/emdlogger3:system/vendor/bin/emdlogger3 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/emdlogger5:system/vendor/bin/emdlogger5 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/epdg_wod:system/vendor/bin/epdg_wod \
-    $(LOCAL_PATH)/proprietary/vendor/bin/factory:system/vendor/bin/factory \
-    $(LOCAL_PATH)/proprietary/vendor/bin/flashlessd:system/vendor/bin/flashlessd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/fsck_msdos_mtk:system/vendor/bin/fsck_msdos_mtk \
-    $(LOCAL_PATH)/proprietary/vendor/bin/fuelgauged:system/vendor/bin/fuelgauged \
-    $(LOCAL_PATH)/proprietary/vendor/bin/fuelgauged_nvram:system/vendor/bin/fuelgauged_nvram \
     $(LOCAL_PATH)/proprietary/vendor/bin/ged_srv:system/vendor/bin/ged_srv \
-    $(LOCAL_PATH)/proprietary/vendor/bin/geomagneticd:system/vendor/bin/geomagneticd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/gsm0710muxd:system/vendor/bin/gsm0710muxd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/gsm0710muxdmd2:system/vendor/bin/gsm0710muxdmd2 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/ifaad:system/vendor/bin/ifaad \
-    $(LOCAL_PATH)/proprietary/vendor/bin/ipsec:system/vendor/bin/ipsec \
-    $(LOCAL_PATH)/proprietary/vendor/bin/ipsec_mon:system/vendor/bin/ipsec_mon \
-    $(LOCAL_PATH)/proprietary/vendor/bin/kpoc_charger:system/vendor/bin/kpoc_charger \
-    $(LOCAL_PATH)/proprietary/vendor/bin/lcdc_screen_cap:system/vendor/bin/lcdc_screen_cap \
-    $(LOCAL_PATH)/proprietary/vendor/bin/lsm303md:system/vendor/bin/lsm303md \
-    $(LOCAL_PATH)/proprietary/vendor/bin/magd:system/vendor/bin/magd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/matv:system/vendor/bin/matv \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mbimd:system/vendor/bin/mbimd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mc6420d:system/vendor/bin/mc6420d \
-    $(LOCAL_PATH)/proprietary/vendor/bin/md_ctrl:system/vendor/bin/md_ctrl \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mdlogger:system/vendor/bin/mdlogger \
-    $(LOCAL_PATH)/proprietary/vendor/bin/memorydumper:system/vendor/bin/memorydumper \
-    $(LOCAL_PATH)/proprietary/vendor/bin/memsicd:system/vendor/bin/memsicd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/memsicd3416x:system/vendor/bin/memsicd3416x \
-    $(LOCAL_PATH)/proprietary/vendor/bin/meta_tst:system/vendor/bin/meta_tst \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mfv_ut:system/vendor/bin/mfv_ut \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mnld:system/vendor/bin/mnld \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mobile_log_d:system/vendor/bin/mobile_log_d \
-    $(LOCAL_PATH)/proprietary/vendor/bin/msensord:system/vendor/bin/msensord \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mtk_agpsd:system/vendor/bin/mtk_agpsd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mtkmal:system/vendor/bin/mtkmal \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mtkrild:system/vendor/bin/mtkrild \
-    $(LOCAL_PATH)/proprietary/vendor/bin/mtkrildmd2:system/vendor/bin/mtkrildmd2 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/muxreport:system/vendor/bin/muxreport \
-    $(LOCAL_PATH)/proprietary/vendor/bin/netdiag:system/vendor/bin/netdiag \
-    $(LOCAL_PATH)/proprietary/vendor/bin/nvram_agent_binder:system/vendor/bin/nvram_agent_binder \
-    $(LOCAL_PATH)/proprietary/vendor/bin/nvram_daemon:system/vendor/bin/nvram_daemon \
-    $(LOCAL_PATH)/proprietary/vendor/bin/orientationd:system/vendor/bin/orientationd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/perf_native_test:system/vendor/bin/perf_native_test \
     $(LOCAL_PATH)/proprietary/vendor/bin/pq:system/vendor/bin/pq \
     $(LOCAL_PATH)/proprietary/vendor/bin/program_binary_builder:system/vendor/bin/program_binary_builder \
     $(LOCAL_PATH)/proprietary/vendor/bin/program_binary_service:system/vendor/bin/program_binary_service \
-    $(LOCAL_PATH)/proprietary/vendor/bin/radvd:system/vendor/bin/radvd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/resize_ext4:system/vendor/bin/resize_ext4 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/rilproxy:system/vendor/bin/rilproxy \
-    $(LOCAL_PATH)/proprietary/vendor/bin/rs2spir:system/vendor/bin/rs2spir \
-    $(LOCAL_PATH)/proprietary/vendor/bin/rtt:system/vendor/bin/rtt \
-    $(LOCAL_PATH)/proprietary/vendor/bin/s62xd:system/vendor/bin/s62xd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/slpd:system/vendor/bin/slpd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/sn:system/vendor/bin/sn \
-    $(LOCAL_PATH)/proprietary/vendor/bin/spir2cl:system/vendor/bin/spir2cl \
-    $(LOCAL_PATH)/proprietary/vendor/bin/spm_loader:system/vendor/bin/spm_loader \
-    $(LOCAL_PATH)/proprietary/vendor/bin/st350d:system/vendor/bin/st350d \
-    $(LOCAL_PATH)/proprietary/vendor/bin/st480:system/vendor/bin/st480 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/starter:system/vendor/bin/starter \
-    $(LOCAL_PATH)/proprietary/vendor/bin/statusd:system/vendor/bin/statusd \
-    $(LOCAL_PATH)/proprietary/vendor/bin/stp_dump3:system/vendor/bin/stp_dump3 \
-    $(LOCAL_PATH)/proprietary/vendor/bin/stroke:system/vendor/bin/stroke \
-    $(LOCAL_PATH)/proprietary/vendor/bin/superumount:system/vendor/bin/superumount \
-    $(LOCAL_PATH)/proprietary/vendor/bin/sysenv_daemon:system/vendor/bin/sysenv_daemon \
-    $(LOCAL_PATH)/proprietary/vendor/bin/teei_daemon:system/vendor/bin/teei_daemon \
-    $(LOCAL_PATH)/proprietary/vendor/bin/terservice:system/vendor/bin/terservice \
-    $(LOCAL_PATH)/proprietary/vendor/bin/tertestclient:system/vendor/bin/tertestclient \
-    $(LOCAL_PATH)/proprietary/vendor/bin/thermal:system/vendor/bin/thermal \
-    $(LOCAL_PATH)/proprietary/vendor/bin/thermal_manager:system/vendor/bin/thermal_manager \
-    $(LOCAL_PATH)/proprietary/vendor/bin/thermald:system/vendor/bin/thermald \
-    $(LOCAL_PATH)/proprietary/vendor/bin/thermalindicator:system/vendor/bin/thermalindicator \
-    $(LOCAL_PATH)/proprietary/vendor/bin/thermalloadalgod:system/vendor/bin/thermalloadalgod \
-    $(LOCAL_PATH)/proprietary/vendor/bin/viaradiooptions:system/vendor/bin/viaradiooptions \
-    $(LOCAL_PATH)/proprietary/vendor/bin/viarild:system/vendor/bin/viarild \
-    $(LOCAL_PATH)/proprietary/vendor/bin/volte_imcb:system/vendor/bin/volte_imcb \
-    $(LOCAL_PATH)/proprietary/vendor/bin/volte_stack:system/vendor/bin/volte_stack \
-    $(LOCAL_PATH)/proprietary/vendor/bin/volte_ua:system/vendor/bin/volte_ua \
-    $(LOCAL_PATH)/proprietary/vendor/bin/vtservice:system/vendor/bin/vtservice \
-    $(LOCAL_PATH)/proprietary/vendor/bin/wfca:system/vendor/bin/wfca \
-    $(LOCAL_PATH)/proprietary/vendor/bin/wifi2agps:system/vendor/bin/wifi2agps \
-    $(LOCAL_PATH)/proprietary/vendor/bin/wmt_concurrency:system/vendor/bin/wmt_concurrency \
-    $(LOCAL_PATH)/proprietary/vendor/bin/wmt_launcher:system/vendor/bin/wmt_launcher \
-    $(LOCAL_PATH)/proprietary/vendor/bin/wmt_loader:system/vendor/bin/wmt_loader \
-    $(LOCAL_PATH)/proprietary/vendor/bin/wmt_loopback:system/vendor/bin/wmt_loopback \
     $(LOCAL_PATH)/proprietary/vendor/etc/audio_device.xml:system/vendor/etc/audio_device.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/audio_em.xml:system/vendor/etc/audio_em.xml \
-    $(LOCAL_PATH)/proprietary/vendor/etc/audio_param:system/vendor/etc/audio_param \
     $(LOCAL_PATH)/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:system/vendor/etc/audio_param/AudioParamOptions.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:system/vendor/etc/audio_param/PlaybackACF_AudioParam.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:system/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
@@ -674,6 +76,249 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:system/vendor/etc/audio_param/Volume_AudioParam.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:system/vendor/etc/audio_param/Volume_ParamUnitDesc.xml \
     $(LOCAL_PATH)/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
+    $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/audio.primary.mt6750.so:system/vendor/lib/hw/audio.primary.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/audio.r_submix.mt6750.so:system/vendor/lib/hw/audio.r_submix.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/audio.usb.mt6750.so:system/vendor/lib/hw/audio.usb.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/camera.mt6750.so:system/vendor/lib/hw/camera.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/gralloc.mt6750.so:system/vendor/lib/hw/gralloc.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/gralloc.mt6750.so:system/vendor/lib/hw/gralloc.mt6755.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/hwcomposer.mt6755.so:system/vendor/lib/hw/hwcomposer.mt6755.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/lib3a.so:system/vendor/lib/lib3a.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/lib3a_core1.so:system/vendor/lib/lib3a_core1.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/lib3a_core2.so:system/vendor/lib/lib3a_core2.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libJpgEncPipe.so:system/vendor/lib/libJpgEncPipe.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libaed.so:system/vendor/lib/libaed.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libaudiocustparam.so:system/vendor/lib/libaudiocustparam.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libaudiotoolkit.so:system/vendor/lib/libaudiotoolkit.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libbwc.so:system/vendor/lib/libbwc.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libc2kutils.so:system/vendor/lib/libc2kutils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.exif.so:system/vendor/lib/libcam.exif.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.hal3a.v3.dng.so:system/vendor/lib/libcam.hal3a.v3.dng.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.hal3a.v3.so:system/vendor/lib/libcam.hal3a.v3.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.halsensor.so:system/vendor/lib/libcam.halsensor.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.iopipe.so:system/vendor/lib/libcam.iopipe.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.metadata.so:system/vendor/lib/libcam.metadata.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.metadataprovider.so:system/vendor/lib/libcam.metadataprovider.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.utils.cpuctrl.so:system/vendor/lib/libcam.utils.cpuctrl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.utils.sensorlistener.so:system/vendor/lib/libcam.utils.sensorlistener.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.utils.so:system/vendor/lib/libcam.utils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam_hwutils.so:system/vendor/lib/libcam_hwutils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam_mmp.so:system/vendor/lib/libcam_mmp.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcam_utils.so:system/vendor/lib/libcam_utils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcamalgo.so:system/vendor/lib/libcamalgo.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcamdrv.so:system/vendor/lib/libcamdrv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcameracustom.so:system/vendor/lib/libcameracustom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libcustom_nvram.so:system/vendor/lib/libcustom_nvram.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libdpframework.so:system/vendor/lib/libdpframework.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libfeatureiodrv.so:system/vendor/lib/libfeatureiodrv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libged.so:system/vendor/lib/libged.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libgpu_aux.so:system/vendor/lib/libgpu_aux.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libgralloc_extra.so:system/vendor/lib/libgralloc_extra.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libimageio.so:system/vendor/lib/libimageio.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libimageio_plat_drv.so:system/vendor/lib/libimageio_plat_drv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libion_mtk.so:system/vendor/lib/libion_mtk.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libm4u.so:system/vendor/lib/libm4u.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmatv_cust.so:system/vendor/lib/libmatv_cust.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmp4enc_sa.ca7.so:system/vendor/lib/libmp4enc_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmrdump.so:system/vendor/lib/libmrdump.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmtk_drvb.so:system/vendor/lib/libmtk_drvb.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmtk_mmutils.so:system/vendor/lib/libmtk_mmutils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmtkcam_fwkutils.so:system/vendor/lib/libmtkcam_fwkutils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmtkjpeg.so:system/vendor/lib/libmtkjpeg.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libnvram.so:system/vendor/lib/libnvram.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libnvram_platform.so:system/vendor/lib/libnvram_platform.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libnvram_sec.so:system/vendor/lib/libnvram_sec.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libnvramagentclient.so:system/vendor/lib/libnvramagentclient.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libperfservicenative.so:system/vendor/lib/libperfservicenative.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libpq_prot.so:system/vendor/lib/libpq_prot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libpqservice.so:system/vendor/lib/libpqservice.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libui_ext.so:system/vendor/lib/libui_ext.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvc1dec_sa.ca7.so:system/vendor/lib/libvc1dec_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvcodec_oal.so:system/vendor/lib/libvcodec_oal.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvcodec_utility.so:system/vendor/lib/libvcodec_utility.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvcodecdrv.so:system/vendor/lib/libvcodecdrv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvp8dec_sa.ca7.so:system/vendor/lib/libvp8dec_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libvp8enc_sa.ca7.so:system/vendor/lib/libvp8enc_sa.ca7.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/audio.primary.mt6750.so:system/vendor/lib64/hw/audio.primary.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/audio.r_submix.mt6750.so:system/vendor/lib64/hw/audio.r_submix.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/audio.usb.mt6750.so:system/vendor/lib64/hw/audio.usb.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/camera.mt6750.so:system/vendor/lib64/hw/camera.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gralloc.mt6750.so:system/vendor/lib64/hw/gralloc.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gralloc.mt6750.so:system/vendor/lib64/hw/gralloc.mt6755.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/hwcomposer.mt6755.so:system/vendor/lib64/hw/hwcomposer.mt6755.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a.so:system/vendor/lib64/lib3a.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a_core1.so:system/vendor/lib64/lib3a_core1.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a_core2.so:system/vendor/lib64/lib3a_core2.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libJpgEncPipe.so:system/vendor/lib64/libJpgEncPipe.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libSonyIMX230PdafLibrary.so:system/vendor/lib64/libSonyIMX230PdafLibrary.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libaed.so:system/vendor/lib64/libaed.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libaudiocustparam.so:system/vendor/lib64/libaudiocustparam.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libaudiotoolkit.so:system/vendor/lib64/libaudiotoolkit.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libbwc.so:system/vendor/lib64/libbwc.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libc2kutils.so:system/vendor/lib64/libc2kutils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.exif.so:system/vendor/lib64/libcam.exif.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.hal3a.v3.dng.so:system/vendor/lib64/libcam.hal3a.v3.dng.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.hal3a.v3.so:system/vendor/lib64/libcam.hal3a.v3.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.halsensor.so:system/vendor/lib64/libcam.halsensor.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.iopipe.so:system/vendor/lib64/libcam.iopipe.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.metadata.so:system/vendor/lib64/libcam.metadata.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.metadataprovider.so:system/vendor/lib64/libcam.metadataprovider.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.utils.cpuctrl.so:system/vendor/lib64/libcam.utils.cpuctrl.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.utils.sensorlistener.so:system/vendor/lib64/libcam.utils.sensorlistener.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.utils.so:system/vendor/lib64/libcam.utils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam_hwutils.so:system/vendor/lib64/libcam_hwutils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam_mmp.so:system/vendor/lib64/libcam_mmp.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam_utils.so:system/vendor/lib64/libcam_utils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcamalgo.so:system/vendor/lib64/libcamalgo.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcamdrv.so:system/vendor/lib64/libcamdrv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcameracustom.so:system/vendor/lib64/libcameracustom.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libcustom_nvram.so:system/vendor/lib64/libcustom_nvram.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libdpframework.so:system/vendor/lib64/libdpframework.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libfeatureiodrv.so:system/vendor/lib64/libfeatureiodrv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libged.so:system/vendor/lib64/libged.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libgpu_aux.so:system/vendor/lib64/libgpu_aux.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libgralloc_extra.so:system/vendor/lib64/libgralloc_extra.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libgui_ext.so:system/vendor/lib64/libgui_ext.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libimageio.so:system/vendor/lib64/libimageio.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libimageio_plat_drv.so:system/vendor/lib64/libimageio_plat_drv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libion_mtk.so:system/vendor/lib64/libion_mtk.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libm4u.so:system/vendor/lib64/libm4u.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmatv_cust.so:system/vendor/lib64/libmatv_cust.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmrdump.so:system/vendor/lib64/libmrdump.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmtk_drvb.so:system/vendor/lib64/libmtk_drvb.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmtk_mmutils.so:system/vendor/lib64/libmtk_mmutils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmtkcam_fwkutils.so:system/vendor/lib64/libmtkcam_fwkutils.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libmtkjpeg.so:system/vendor/lib64/libmtkjpeg.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libnvram.so:system/vendor/lib64/libnvram.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libnvram_platform.so:system/vendor/lib64/libnvram_platform.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libnvram_sec.so:system/vendor/lib64/libnvram_sec.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libnvramagentclient.so:system/vendor/lib64/libnvramagentclient.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libperfservicenative.so:system/vendor/lib64/libperfservicenative.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libpq_prot.so:system/vendor/lib64/libpq_prot.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libpqservice.so:system/vendor/lib64/libpqservice.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libvcodec_utility.so:system/vendor/lib64/libvcodec_utility.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libvcodecdrv.so:system/vendor/lib64/libvcodecdrv.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libdirect-coredump.so:system/vendor/lib/libdirect-coredump.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/libdirect-coredump.so:system/vendor/lib64/libdirect-coredump.so \
+    $(LOCAL_PATH)/proprietary/vendor/bin/aee_core_forwarder:system/bin/aee_core_forwarder
+
+# Build Station: complete stock vendor payload discovered under proprietary/vendor.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/bin/MPED:system/vendor/bin/MPED \
+    $(LOCAL_PATH)/proprietary/vendor/bin/MtkCodecService:system/vendor/bin/MtkCodecService \
+    $(LOCAL_PATH)/proprietary/vendor/bin/aal:system/vendor/bin/aal \
+    $(LOCAL_PATH)/proprietary/vendor/bin/aee:system/vendor/bin/aee \
+    $(LOCAL_PATH)/proprietary/vendor/bin/aee_archive:system/vendor/bin/aee_archive \
+    $(LOCAL_PATH)/proprietary/vendor/bin/aee_core_forwarder:system/vendor/bin/aee_core_forwarder \
+    $(LOCAL_PATH)/proprietary/vendor/bin/aee_dumpstate:system/vendor/bin/aee_dumpstate \
+    $(LOCAL_PATH)/proprietary/vendor/bin/akmd09911:system/vendor/bin/akmd09911 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/akmd8963:system/vendor/bin/akmd8963 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/akmd8975:system/vendor/bin/akmd8975 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/ami304d:system/vendor/bin/ami304d \
+    $(LOCAL_PATH)/proprietary/vendor/bin/atci_service:system/vendor/bin/atci_service \
+    $(LOCAL_PATH)/proprietary/vendor/bin/atcid:system/vendor/bin/atcid \
+    $(LOCAL_PATH)/proprietary/vendor/bin/audiocmdservice_atci:system/vendor/bin/audiocmdservice_atci \
+    $(LOCAL_PATH)/proprietary/vendor/bin/autobt:system/vendor/bin/autobt \
+    $(LOCAL_PATH)/proprietary/vendor/bin/autokd:system/vendor/bin/autokd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/batterywarning:system/vendor/bin/batterywarning \
+    $(LOCAL_PATH)/proprietary/vendor/bin/bmm050d:system/vendor/bin/bmm050d \
+    $(LOCAL_PATH)/proprietary/vendor/bin/boot_logo_updater:system/vendor/bin/boot_logo_updater \
+    $(LOCAL_PATH)/proprietary/vendor/bin/ccci_fsd:system/vendor/bin/ccci_fsd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/ccci_mdinit:system/vendor/bin/ccci_mdinit \
+    $(LOCAL_PATH)/proprietary/vendor/bin/charon:system/vendor/bin/charon \
+    $(LOCAL_PATH)/proprietary/vendor/bin/dhcp6c:system/vendor/bin/dhcp6c \
+    $(LOCAL_PATH)/proprietary/vendor/bin/dhcp6ctl:system/vendor/bin/dhcp6ctl \
+    $(LOCAL_PATH)/proprietary/vendor/bin/dhcp6s:system/vendor/bin/dhcp6s \
+    $(LOCAL_PATH)/proprietary/vendor/bin/dm_agent_binder:system/vendor/bin/dm_agent_binder \
+    $(LOCAL_PATH)/proprietary/vendor/bin/dmlog:system/vendor/bin/dmlog \
+    $(LOCAL_PATH)/proprietary/vendor/bin/downloader:system/vendor/bin/downloader \
+    $(LOCAL_PATH)/proprietary/vendor/bin/emdlogger1:system/vendor/bin/emdlogger1 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/emdlogger2:system/vendor/bin/emdlogger2 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/emdlogger3:system/vendor/bin/emdlogger3 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/emdlogger5:system/vendor/bin/emdlogger5 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/epdg_wod:system/vendor/bin/epdg_wod \
+    $(LOCAL_PATH)/proprietary/vendor/bin/factory:system/vendor/bin/factory \
+    $(LOCAL_PATH)/proprietary/vendor/bin/flashlessd:system/vendor/bin/flashlessd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/fsck_msdos_mtk:system/vendor/bin/fsck_msdos_mtk \
+    $(LOCAL_PATH)/proprietary/vendor/bin/fuelgauged:system/vendor/bin/fuelgauged \
+    $(LOCAL_PATH)/proprietary/vendor/bin/fuelgauged_nvram:system/vendor/bin/fuelgauged_nvram \
+    $(LOCAL_PATH)/proprietary/vendor/bin/geomagneticd:system/vendor/bin/geomagneticd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/gsm0710muxd:system/vendor/bin/gsm0710muxd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/gsm0710muxdmd2:system/vendor/bin/gsm0710muxdmd2 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/ifaad:system/vendor/bin/ifaad \
+    $(LOCAL_PATH)/proprietary/vendor/bin/ipsec:system/vendor/bin/ipsec \
+    $(LOCAL_PATH)/proprietary/vendor/bin/ipsec_mon:system/vendor/bin/ipsec_mon \
+    $(LOCAL_PATH)/proprietary/vendor/bin/kpoc_charger:system/vendor/bin/kpoc_charger \
+    $(LOCAL_PATH)/proprietary/vendor/bin/lcdc_screen_cap:system/vendor/bin/lcdc_screen_cap \
+    $(LOCAL_PATH)/proprietary/vendor/bin/lsm303md:system/vendor/bin/lsm303md \
+    $(LOCAL_PATH)/proprietary/vendor/bin/magd:system/vendor/bin/magd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/matv:system/vendor/bin/matv \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mbimd:system/vendor/bin/mbimd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mc6420d:system/vendor/bin/mc6420d \
+    $(LOCAL_PATH)/proprietary/vendor/bin/md_ctrl:system/vendor/bin/md_ctrl \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mdlogger:system/vendor/bin/mdlogger \
+    $(LOCAL_PATH)/proprietary/vendor/bin/memorydumper:system/vendor/bin/memorydumper \
+    $(LOCAL_PATH)/proprietary/vendor/bin/memsicd:system/vendor/bin/memsicd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/memsicd3416x:system/vendor/bin/memsicd3416x \
+    $(LOCAL_PATH)/proprietary/vendor/bin/meta_tst:system/vendor/bin/meta_tst \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mfv_ut:system/vendor/bin/mfv_ut \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mnld:system/vendor/bin/mnld \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mobile_log_d:system/vendor/bin/mobile_log_d \
+    $(LOCAL_PATH)/proprietary/vendor/bin/msensord:system/vendor/bin/msensord \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mtk_agpsd:system/vendor/bin/mtk_agpsd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mtkmal:system/vendor/bin/mtkmal \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mtkrild:system/vendor/bin/mtkrild \
+    $(LOCAL_PATH)/proprietary/vendor/bin/mtkrildmd2:system/vendor/bin/mtkrildmd2 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/muxreport:system/vendor/bin/muxreport \
+    $(LOCAL_PATH)/proprietary/vendor/bin/netdiag:system/vendor/bin/netdiag \
+    $(LOCAL_PATH)/proprietary/vendor/bin/nvram_agent_binder:system/vendor/bin/nvram_agent_binder \
+    $(LOCAL_PATH)/proprietary/vendor/bin/nvram_daemon:system/vendor/bin/nvram_daemon \
+    $(LOCAL_PATH)/proprietary/vendor/bin/orientationd:system/vendor/bin/orientationd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/perf_native_test:system/vendor/bin/perf_native_test \
+    $(LOCAL_PATH)/proprietary/vendor/bin/radvd:system/vendor/bin/radvd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/resize_ext4:system/vendor/bin/resize_ext4 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/rilproxy:system/vendor/bin/rilproxy \
+    $(LOCAL_PATH)/proprietary/vendor/bin/rs2spir:system/vendor/bin/rs2spir \
+    $(LOCAL_PATH)/proprietary/vendor/bin/rtt:system/vendor/bin/rtt \
+    $(LOCAL_PATH)/proprietary/vendor/bin/s62xd:system/vendor/bin/s62xd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/slpd:system/vendor/bin/slpd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/sn:system/vendor/bin/sn \
+    $(LOCAL_PATH)/proprietary/vendor/bin/spir2cl:system/vendor/bin/spir2cl \
+    $(LOCAL_PATH)/proprietary/vendor/bin/spm_loader:system/vendor/bin/spm_loader \
+    $(LOCAL_PATH)/proprietary/vendor/bin/st350d:system/vendor/bin/st350d \
+    $(LOCAL_PATH)/proprietary/vendor/bin/st480:system/vendor/bin/st480 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/starter:system/vendor/bin/starter \
+    $(LOCAL_PATH)/proprietary/vendor/bin/statusd:system/vendor/bin/statusd \
+    $(LOCAL_PATH)/proprietary/vendor/bin/stp_dump3:system/vendor/bin/stp_dump3 \
+    $(LOCAL_PATH)/proprietary/vendor/bin/stroke:system/vendor/bin/stroke \
+    $(LOCAL_PATH)/proprietary/vendor/bin/superumount:system/vendor/bin/superumount \
+    $(LOCAL_PATH)/proprietary/vendor/bin/sysenv_daemon:system/vendor/bin/sysenv_daemon \
+    $(LOCAL_PATH)/proprietary/vendor/bin/teei_daemon:system/vendor/bin/teei_daemon \
+    $(LOCAL_PATH)/proprietary/vendor/bin/terservice:system/vendor/bin/terservice \
+    $(LOCAL_PATH)/proprietary/vendor/bin/tertestclient:system/vendor/bin/tertestclient \
+    $(LOCAL_PATH)/proprietary/vendor/bin/thermal:system/vendor/bin/thermal \
+    $(LOCAL_PATH)/proprietary/vendor/bin/thermal_manager:system/vendor/bin/thermal_manager \
+    $(LOCAL_PATH)/proprietary/vendor/bin/thermald:system/vendor/bin/thermald \
+    $(LOCAL_PATH)/proprietary/vendor/bin/thermalindicator:system/vendor/bin/thermalindicator \
+    $(LOCAL_PATH)/proprietary/vendor/bin/thermalloadalgod:system/vendor/bin/thermalloadalgod \
+    $(LOCAL_PATH)/proprietary/vendor/bin/viaradiooptions:system/vendor/bin/viaradiooptions \
+    $(LOCAL_PATH)/proprietary/vendor/bin/viarild:system/vendor/bin/viarild \
+    $(LOCAL_PATH)/proprietary/vendor/bin/volte_imcb:system/vendor/bin/volte_imcb \
+    $(LOCAL_PATH)/proprietary/vendor/bin/volte_stack:system/vendor/bin/volte_stack \
+    $(LOCAL_PATH)/proprietary/vendor/bin/volte_ua:system/vendor/bin/volte_ua \
+    $(LOCAL_PATH)/proprietary/vendor/bin/vtservice:system/vendor/bin/vtservice \
+    $(LOCAL_PATH)/proprietary/vendor/bin/wfca:system/vendor/bin/wfca \
+    $(LOCAL_PATH)/proprietary/vendor/bin/wifi2agps:system/vendor/bin/wifi2agps \
+    $(LOCAL_PATH)/proprietary/vendor/bin/wmt_concurrency:system/vendor/bin/wmt_concurrency \
+    $(LOCAL_PATH)/proprietary/vendor/bin/wmt_launcher:system/vendor/bin/wmt_launcher \
+    $(LOCAL_PATH)/proprietary/vendor/bin/wmt_loader:system/vendor/bin/wmt_loader \
+    $(LOCAL_PATH)/proprietary/vendor/bin/wmt_loopback:system/vendor/bin/wmt_loopback \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/init.mal.rc:system/vendor/etc/init/init.mal.rc \
     $(LOCAL_PATH)/proprietary/vendor/etc/init/init.wod.rc:system/vendor/etc/init/init.wod.rc \
     $(LOCAL_PATH)/proprietary/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin:system/vendor/firmware/ROMv2_lm_patch_1_0_hdr.bin \
@@ -682,7 +327,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/WMT_SOC.cfg:system/vendor/firmware/WMT_SOC.cfg \
     $(LOCAL_PATH)/proprietary/vendor/firmware/catcher_filter_1_ulwctg_n.bin:system/vendor/firmware/catcher_filter_1_ulwctg_n.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/catcher_filter_3_3g_n.bin:system/vendor/firmware/catcher_filter_3_3g_n.bin \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/customfilter:system/vendor/firmware/customfilter \
     $(LOCAL_PATH)/proprietary/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_C2KOnly_Test.bin:system/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_C2KOnly_Test.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_Default_Embms.bin:system/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_Default_Embms.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_Default_IPAllOff.bin:system/vendor/firmware/customfilter/catcher_filter_1_ulwctg_n_Default_IPAllOff.bin \
@@ -707,29 +351,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/wifi_fw.cfg:system/vendor/firmware/wifi_fw.cfg \
     $(LOCAL_PATH)/proprietary/vendor/lib/drm/libdrmctaplugin.so:system/vendor/lib/drm/libdrmctaplugin.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/drm/libdrmmtkplugin.so:system/vendor/lib/drm/libdrmmtkplugin.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/audio.primary.mt6750.so:system/vendor/lib/hw/audio.primary.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/audio.r_submix.mt6750.so:system/vendor/lib/hw/audio.r_submix.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/audio.usb.mt6750.so:system/vendor/lib/hw/audio.usb.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/camera.mt6750.so:system/vendor/lib/hw/camera.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/bluetooth.blueangel.so:system/vendor/lib/hw/bluetooth.blueangel.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/gatekeeper.mt6750.so:system/vendor/lib/hw/gatekeeper.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/gps.mt6750.so:system/vendor/lib/hw/gps.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/gralloc.mt6750.so:system/vendor/lib/hw/gralloc.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/hwcomposer.mt6755.so:system/vendor/lib/hw/hwcomposer.mt6755.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/keystore.mt6750.so:system/vendor/lib/hw/keystore.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/lights.mt6750.so:system/vendor/lib/hw/lights.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/memtrack.mt6750.so:system/vendor/lib/hw/memtrack.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.mt6750.so:system/vendor/lib/hw/sensors.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/lib3a.so:system/vendor/lib/lib3a.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/lib3a_core1.so:system/vendor/lib/lib3a_core1.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/lib3a_core2.so:system/vendor/lib/lib3a_core2.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/lib3a_sample.so:system/vendor/lib/lib3a_sample.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libBnMtkCodec.so:system/vendor/lib/libBnMtkCodec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libClearMotionFW.so:system/vendor/lib/libClearMotionFW.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libDR.so:system/vendor/lib/libDR.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:system/vendor/lib/libHEVCdec_sa.ca7.android.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libJpgDecPipe.so:system/vendor/lib/libJpgDecPipe.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libJpgEncPipe.so:system/vendor/lib/libJpgEncPipe.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libMiraVision_jni.so:system/vendor/lib/libMiraVision_jni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:system/vendor/lib/libMtkOmxAdpcmDec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libMtkOmxAdpcmEnc.so:system/vendor/lib/libMtkOmxAdpcmEnc.so \
@@ -749,12 +383,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libPQDCjni.so:system/vendor/lib/libPQDCjni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libPQjni.so:system/vendor/lib/libPQjni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libRSDriver_mtk.so:system/vendor/lib/libRSDriver_mtk.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:system/vendor/lib/libSonyIMX230PdafLibrary.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libSwJpgCodec.so:system/vendor/lib/libSwJpgCodec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libaal.so:system/vendor/lib/libaal.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libaal_cust.so:system/vendor/lib/libaal_cust.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdk.so:system/vendor/lib/libacdk.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libaed.so:system/vendor/lib/libaed.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libamr_wrap.so:system/vendor/lib/libamr_wrap.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libamrvt.so:system/vendor/lib/libamrvt.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libatciserv_jni.so:system/vendor/lib/libatciserv_jni.so \
@@ -762,11 +394,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libaudio_param_parser.so:system/vendor/lib/libaudio_param_parser.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libaudiocompensationfilter.so:system/vendor/lib/libaudiocompensationfilter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libaudiocomponentengine.so:system/vendor/lib/libaudiocomponentengine.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libaudiocustparam.so:system/vendor/lib/libaudiocustparam.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libaudiodcrflt.so:system/vendor/lib/libaudiodcrflt.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libaudiomtkdcremoval.so:system/vendor/lib/libaudiomtkdcremoval.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libaudiosetting.so:system/vendor/lib/libaudiosetting.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libaudiotoolkit.so:system/vendor/lib/libaudiotoolkit.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libawb_wrap.so:system/vendor/lib/libawb_wrap.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libbessound_hd_mtk.so:system/vendor/lib/libbessound_hd_mtk.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libblisrc.so:system/vendor/lib/libblisrc.so \
@@ -777,9 +407,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libbluetooth_relayer.so:system/vendor/lib/libbluetooth_relayer.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libbluetoothem_mtk.so:system/vendor/lib/libbluetoothem_mtk.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libbwc.so:system/vendor/lib/libbwc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libc2kril.so:system/vendor/lib/libc2kril.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libc2kutils.so:system/vendor/lib/libc2kutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam.camadapter.so:system/vendor/lib/libcam.camadapter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam.camarcsoft.so:system/vendor/lib/libcam.camarcsoft.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam.camnode.so:system/vendor/lib/libcam.camnode.so \
@@ -787,44 +415,25 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam.client.so:system/vendor/lib/libcam.client.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam.device1.so:system/vendor/lib/libcam.device1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam.device3.so:system/vendor/lib/libcam.device3.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.exif.so:system/vendor/lib/libcam.exif.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam.exif.v3.so:system/vendor/lib/libcam.exif.v3.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.hal3a.v3.dng.so:system/vendor/lib/libcam.hal3a.v3.dng.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.hal3a.v3.so:system/vendor/lib/libcam.hal3a.v3.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.halsensor.so:system/vendor/lib/libcam.halsensor.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.iopipe.so:system/vendor/lib/libcam.iopipe.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam.jni.lomohaljni.so:system/vendor/lib/libcam.jni.lomohaljni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.metadata.so:system/vendor/lib/libcam.metadata.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.metadataprovider.so:system/vendor/lib/libcam.metadataprovider.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam.paramsmgr.so:system/vendor/lib/libcam.paramsmgr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.utils.cpuctrl.so:system/vendor/lib/libcam.utils.cpuctrl.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.utils.sensorlistener.so:system/vendor/lib/libcam.utils.sensorlistener.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam.utils.so:system/vendor/lib/libcam.utils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam1_utils.so:system/vendor/lib/libcam1_utils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam3_app.so:system/vendor/lib/libcam3_app.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam3_hwnode.so:system/vendor/lib/libcam3_hwnode.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam3_hwpipeline.so:system/vendor/lib/libcam3_hwpipeline.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam3_pipeline.so:system/vendor/lib/libcam3_pipeline.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam3_utils.so:system/vendor/lib/libcam3_utils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam_hwutils.so:system/vendor/lib/libcam_hwutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam_mmp.so:system/vendor/lib/libcam_mmp.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcam_platform.so:system/vendor/lib/libcam_platform.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcam_utils.so:system/vendor/lib/libcam_utils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcamalgo.so:system/vendor/lib/libcamalgo.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcamdrv.so:system/vendor/lib/libcamdrv.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcameracustom.so:system/vendor/lib/libcameracustom.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libccci_util.so:system/vendor/lib/libccci_util.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcharon.so:system/vendor/lib/libcharon.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcomutils.so:system/vendor/lib/libcomutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcrypto-ss.so:system/vendor/lib/libcrypto-ss.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcurl-ss.so:system/vendor/lib/libcurl-ss.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcustom_jni.so:system/vendor/lib/libcustom_jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libcustom_nvram.so:system/vendor/lib/libcustom_nvram.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcustom_prop.so:system/vendor/lib/libcustom_prop.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libcvsd_mtk.so:system/vendor/lib/libcvsd_mtk.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libdirect-coredump.so:system/vendor/lib/libdirect-coredump.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdngop.so:system/vendor/lib/libdngop.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libdpframework.so:system/vendor/lib/libdpframework.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdrmmtkutil.so:system/vendor/lib/libdrmmtkutil.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libdrmmtkwhitelist.so:system/vendor/lib/libdrmmtkwhitelist.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libeffect.facebeautypp.so:system/vendor/lib/libeffect.facebeautypp.so \
@@ -844,33 +453,24 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libfeatureio.featurefactory.so:system/vendor/lib/libfeatureio.featurefactory.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libfeatureio.jpg.so:system/vendor/lib/libfeatureio.jpg.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libfeatureio.so:system/vendor/lib/libfeatureio.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libfeatureiodrv.so:system/vendor/lib/libfeatureiodrv.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libfgauge.so:system/vendor/lib/libfgauge.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libfile_op.so:system/vendor/lib/libfile_op.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libfmjni.so:system/vendor/lib/libfmjni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libfusion.so:system/vendor/lib/libfusion.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libgas.so:system/vendor/lib/libgas.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libged.so:system/vendor/lib/libged.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libgpu_aux.so:system/vendor/lib/libgpu_aux.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libgralloc_extra.so:system/vendor/lib/libgralloc_extra.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libgui_ext.so:system/vendor/lib/libgui_ext.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libh264enc_sa.ca7.so:system/vendor/lib/libh264enc_sa.ca7.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libh264enc_sb.ca7.so:system/vendor/lib/libh264enc_sb.ca7.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhdrproc.so:system/vendor/lib/libhdrproc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhwm.so:system/vendor/lib/libhwm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libhydra.so:system/vendor/lib/libhydra.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libifaa_daemon.so:system/vendor/lib/libifaa_daemon.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libimageio.so:system/vendor/lib/libimageio.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libimageio_plat_drv.so:system/vendor/lib/libimageio_plat_drv.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libimsma.so:system/vendor/lib/libimsma.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libimsma_rtp.so:system/vendor/lib/libimsma_rtp.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libimsma_socketwrapper.so:system/vendor/lib/libimsma_socketwrapper.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libion_mtk.so:system/vendor/lib/libion_mtk.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libjni_lomoeffect.so:system/vendor/lib/libjni_lomoeffect.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libjni_pq.so:system/vendor/lib/libjni_pq.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblic_divx.so:system/vendor/lib/liblic_divx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblic_s263.so:system/vendor/lib/liblic_s263.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libm4u.so:system/vendor/lib/libm4u.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmal.so:system/vendor/lib/libmal.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmal_datamngr.so:system/vendor/lib/libmal_datamngr.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmal_epdga.so:system/vendor/lib/libmal_epdga.so \
@@ -880,7 +480,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmal_rds.so:system/vendor/lib/libmal_rds.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmal_rilproxy.so:system/vendor/lib/libmal_rilproxy.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmal_simmngr.so:system/vendor/lib/libmal_simmngr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmatv_cust.so:system/vendor/lib/libmatv_cust.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmdfx.so:system/vendor/lib/libmdfx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmdloggerrecycle.so:system/vendor/lib/libmdloggerrecycle.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmemoryDumpEncoder.so:system/vendor/lib/libmemoryDumpEncoder.so \
@@ -892,37 +491,24 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmprofile_jni.so:system/vendor/lib/libmmprofile_jni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmsdkservice.so:system/vendor/lib/libmmsdkservice.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmnl.so:system/vendor/lib/libmnl.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmp4enc_sa.ca7.so:system/vendor/lib/libmp4enc_sa.ca7.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmp4enc_xa.ca7.so:system/vendor/lib/libmp4enc_xa.ca7.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmpe.driver.so:system/vendor/lib/libmpe.driver.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmpe.sensorlistener.so:system/vendor/lib/libmpe.sensorlistener.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmrdump.so:system/vendor/lib/libmrdump.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmsbc_mtk.so:system/vendor/lib/libmsbc_mtk.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmtcloader.so:system/vendor/lib/libmtcloader.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmtee.so:system/vendor/lib/libmtee.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmtk_drvb.so:system/vendor/lib/libmtk_drvb.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmtk_mmutils.so:system/vendor/lib/libmtk_mmutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmtk_vt_service.so:system/vendor/lib/libmtk_vt_service.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmtk_vt_swip.so:system/vendor/lib/libmtk_vt_swip.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmtk_vt_utils.so:system/vendor/lib/libmtk_vt_utils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmtk_vt_wrapper.so:system/vendor/lib/libmtk_vt_wrapper.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmtkcam_fwkutils.so:system/vendor/lib/libmtkcam_fwkutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmtkjpeg.so:system/vendor/lib/libmtkjpeg.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmtklimiter.so:system/vendor/lib/libmtklimiter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmtkplayer.so:system/vendor/lib/libmtkplayer.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmtkshifter.so:system/vendor/lib/libmtkshifter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libn3d3a.so:system/vendor/lib/libn3d3a.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libnativecheck-jni.so:system/vendor/lib/libnativecheck-jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libnvram.so:system/vendor/lib/libnvram.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libnvram_daemon_callback.so:system/vendor/lib/libnvram_daemon_callback.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libnvram_platform.so:system/vendor/lib/libnvram_platform.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libnvram_sec.so:system/vendor/lib/libnvram_sec.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libnvramagentclient.so:system/vendor/lib/libnvramagentclient.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libperfservice.so:system/vendor/lib/libperfservice.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libperfservicenative.so:system/vendor/lib/libperfservicenative.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libpq_cust.so:system/vendor/lib/libpq_cust.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libpq_prot.so:system/vendor/lib/libpq_prot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libpqservice.so:system/vendor/lib/libpqservice.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libprogrambinary.so:system/vendor/lib/libprogrambinary.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libratconfig.so:system/vendor/lib/libratconfig.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/librilmtk.so:system/vendor/lib/librilmtk.so \
@@ -946,18 +532,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libtimestretch.so:system/vendor/lib/libtimestretch.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libtouchfilter.so:system/vendor/lib/libtouchfilter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libudf.so:system/vendor/lib/libudf.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libui_ext.so:system/vendor/lib/libui_ext.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libvc1dec_sa.ca7.so:system/vendor/lib/libvc1dec_sa.ca7.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvcodec_cap.so:system/vendor/lib/libvcodec_cap.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libvcodec_oal.so:system/vendor/lib/libvcodec_oal.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libvcodec_utility.so:system/vendor/lib/libvcodec_utility.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libvcodecdrv.so:system/vendor/lib/libvcodecdrv.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libviagpsrpc.so:system/vendor/lib/libviagpsrpc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libviatelecom-withuim-ril.so:system/vendor/lib/libviatelecom-withuim-ril.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvoicerecognition.so:system/vendor/lib/libvoicerecognition.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvoicerecognition_jni.so:system/vendor/lib/libvoicerecognition_jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libvp8dec_sa.ca7.so:system/vendor/lib/libvp8dec_sa.ca7.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libvp8enc_sa.ca7.so:system/vendor/lib/libvp8enc_sa.ca7.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvp9dec_sa.ca7.so:system/vendor/lib/libvp9dec_sa.ca7.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvt_avsync.so:system/vendor/lib/libvt_avsync.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libvt_custom.so:system/vendor/lib/libvt_custom.so \
@@ -974,26 +553,15 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/volte_imsm.so:system/vendor/lib/volte_imsm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/drm/libdrmctaplugin.so:system/vendor/lib64/drm/libdrmctaplugin.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/drm/libdrmmtkplugin.so:system/vendor/lib64/drm/libdrmmtkplugin.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/egl/libGLES_mali.so:system/vendor/lib64/egl/libGLES_mali.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/audio.primary.mt6750.so:system/vendor/lib64/hw/audio.primary.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/audio.r_submix.mt6750.so:system/vendor/lib64/hw/audio.r_submix.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/audio.usb.mt6750.so:system/vendor/lib64/hw/audio.usb.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/camera.mt6750.so:system/vendor/lib64/hw/camera.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gatekeeper.mt6750.so:system/vendor/lib64/hw/gatekeeper.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gps.mt6750.so:system/vendor/lib64/hw/gps.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gralloc.mt6750.so:system/vendor/lib64/hw/gralloc.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/hwcomposer.mt6755.so:system/vendor/lib64/hw/hwcomposer.mt6755.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/keystore.mt6750.so:system/vendor/lib64/hw/keystore.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/lights.mt6750.so:system/vendor/lib64/hw/lights.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/memtrack.mt6750.so:system/vendor/lib64/hw/memtrack.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/sensors.mt6750.so:system/vendor/lib64/hw/sensors.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a.so:system/vendor/lib64/lib3a.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a_core1.so:system/vendor/lib64/lib3a_core1.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a_core2.so:system/vendor/lib64/lib3a_core2.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a_sample.so:system/vendor/lib64/lib3a_sample.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libBnMtkCodec.so:system/vendor/lib64/libBnMtkCodec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libJpgDecPipe.so:system/vendor/lib64/libJpgDecPipe.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libJpgEncPipe.so:system/vendor/lib64/libJpgEncPipe.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libMiraVision_jni.so:system/vendor/lib64/libMiraVision_jni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libMtkOmxCore.so:system/vendor/lib64/libMtkOmxCore.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libMtkVideoSpeedEffect.so:system/vendor/lib64/libMtkVideoSpeedEffect.so \
@@ -1002,21 +570,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libPQDCjni.so:system/vendor/lib64/libPQDCjni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libPQjni.so:system/vendor/lib64/libPQjni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libRSDriver_mtk.so:system/vendor/lib64/libRSDriver_mtk.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libSonyIMX230PdafLibrary.so:system/vendor/lib64/libSonyIMX230PdafLibrary.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libSwJpgCodec.so:system/vendor/lib64/libSwJpgCodec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libaal.so:system/vendor/lib64/libaal.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libaal_cust.so:system/vendor/lib64/libaal_cust.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libacdk.so:system/vendor/lib64/libacdk.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libaed.so:system/vendor/lib64/libaed.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libatciserv_jni.so:system/vendor/lib64/libatciserv_jni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libatvctrlservice.so:system/vendor/lib64/libatvctrlservice.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libaudio_param_parser.so:system/vendor/lib64/libaudio_param_parser.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libaudiocompensationfilter.so:system/vendor/lib64/libaudiocompensationfilter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libaudiocomponentengine.so:system/vendor/lib64/libaudiocomponentengine.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libaudiocustparam.so:system/vendor/lib64/libaudiocustparam.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libaudiodcrflt.so:system/vendor/lib64/libaudiodcrflt.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libaudiosetting.so:system/vendor/lib64/libaudiosetting.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libaudiotoolkit.so:system/vendor/lib64/libaudiotoolkit.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libbessound_hd_mtk.so:system/vendor/lib64/libbessound_hd_mtk.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libblisrc.so:system/vendor/lib64/libblisrc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libblisrc32.so:system/vendor/lib64/libblisrc32.so \
@@ -1025,8 +589,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:system/vendor/lib64/libbluetooth_mtk_pure.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libbluetooth_relayer.so:system/vendor/lib64/libbluetooth_relayer.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libbluetoothem_mtk.so:system/vendor/lib64/libbluetoothem_mtk.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libbwc.so:system/vendor/lib64/libbwc.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libc2kutils.so:system/vendor/lib64/libc2kutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.camadapter.so:system/vendor/lib64/libcam.camadapter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.camarcsoft.so:system/vendor/lib64/libcam.camarcsoft.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.camnode.so:system/vendor/lib64/libcam.camnode.so \
@@ -1034,44 +596,25 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.client.so:system/vendor/lib64/libcam.client.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.device1.so:system/vendor/lib64/libcam.device1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.device3.so:system/vendor/lib64/libcam.device3.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.exif.so:system/vendor/lib64/libcam.exif.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.exif.v3.so:system/vendor/lib64/libcam.exif.v3.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.hal3a.v3.dng.so:system/vendor/lib64/libcam.hal3a.v3.dng.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.hal3a.v3.so:system/vendor/lib64/libcam.hal3a.v3.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.halsensor.so:system/vendor/lib64/libcam.halsensor.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.iopipe.so:system/vendor/lib64/libcam.iopipe.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.jni.lomohaljni.so:system/vendor/lib64/libcam.jni.lomohaljni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.metadata.so:system/vendor/lib64/libcam.metadata.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.metadataprovider.so:system/vendor/lib64/libcam.metadataprovider.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.paramsmgr.so:system/vendor/lib64/libcam.paramsmgr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.utils.cpuctrl.so:system/vendor/lib64/libcam.utils.cpuctrl.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.utils.sensorlistener.so:system/vendor/lib64/libcam.utils.sensorlistener.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam.utils.so:system/vendor/lib64/libcam.utils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam1_utils.so:system/vendor/lib64/libcam1_utils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam3_app.so:system/vendor/lib64/libcam3_app.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam3_hwnode.so:system/vendor/lib64/libcam3_hwnode.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam3_hwpipeline.so:system/vendor/lib64/libcam3_hwpipeline.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam3_pipeline.so:system/vendor/lib64/libcam3_pipeline.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam3_utils.so:system/vendor/lib64/libcam3_utils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam_hwutils.so:system/vendor/lib64/libcam_hwutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam_mmp.so:system/vendor/lib64/libcam_mmp.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcam_platform.so:system/vendor/lib64/libcam_platform.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcam_utils.so:system/vendor/lib64/libcam_utils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcamalgo.so:system/vendor/lib64/libcamalgo.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcamdrv.so:system/vendor/lib64/libcamdrv.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcameracustom.so:system/vendor/lib64/libcameracustom.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libccci_util.so:system/vendor/lib64/libccci_util.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcharon.so:system/vendor/lib64/libcharon.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcomutils.so:system/vendor/lib64/libcomutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcrypto-ss.so:system/vendor/lib64/libcrypto-ss.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcurl-ss.so:system/vendor/lib64/libcurl-ss.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcustom_jni.so:system/vendor/lib64/libcustom_jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libcustom_nvram.so:system/vendor/lib64/libcustom_nvram.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcustom_prop.so:system/vendor/lib64/libcustom_prop.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libcvsd_mtk.so:system/vendor/lib64/libcvsd_mtk.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libdirect-coredump.so:system/vendor/lib64/libdirect-coredump.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libdngop.so:system/vendor/lib64/libdngop.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libdpframework.so:system/vendor/lib64/libdpframework.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libdrmmtkutil.so:system/vendor/lib64/libdrmmtkutil.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libdrmmtkwhitelist.so:system/vendor/lib64/libdrmmtkwhitelist.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libeffect.facebeautypp.so:system/vendor/lib64/libeffect.facebeautypp.so \
@@ -1091,28 +634,19 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libfeatureio.featurefactory.so:system/vendor/lib64/libfeatureio.featurefactory.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libfeatureio.jpg.so:system/vendor/lib64/libfeatureio.jpg.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libfeatureio.so:system/vendor/lib64/libfeatureio.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libfeatureiodrv.so:system/vendor/lib64/libfeatureiodrv.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libfile_op.so:system/vendor/lib64/libfile_op.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libfmjni.so:system/vendor/lib64/libfmjni.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libgas.so:system/vendor/lib64/libgas.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libged.so:system/vendor/lib64/libged.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libgpu_aux.so:system/vendor/lib64/libgpu_aux.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libgralloc_extra.so:system/vendor/lib64/libgralloc_extra.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libgui_ext.so:system/vendor/lib64/libgui_ext.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libhdrproc.so:system/vendor/lib64/libhdrproc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libhwm.so:system/vendor/lib64/libhwm.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libhydra.so:system/vendor/lib64/libhydra.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libifaa_daemon.so:system/vendor/lib64/libifaa_daemon.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libimageio.so:system/vendor/lib64/libimageio.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libimageio_plat_drv.so:system/vendor/lib64/libimageio_plat_drv.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libimsma.so:system/vendor/lib64/libimsma.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libimsma_rtp.so:system/vendor/lib64/libimsma_rtp.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libimsma_socketwrapper.so:system/vendor/lib64/libimsma_socketwrapper.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libion_mtk.so:system/vendor/lib64/libion_mtk.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libipsec_ims_shr.so:system/vendor/lib64/libipsec_ims_shr.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libjni_lomoeffect.so:system/vendor/lib64/libjni_lomoeffect.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libjni_pq.so:system/vendor/lib64/libjni_pq.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libm4u.so:system/vendor/lib64/libm4u.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmal.so:system/vendor/lib64/libmal.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmal_datamngr.so:system/vendor/lib64/libmal_datamngr.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmal_epdga.so:system/vendor/lib64/libmal_epdga.so \
@@ -1122,7 +656,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmal_rds.so:system/vendor/lib64/libmal_rds.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmal_rilproxy.so:system/vendor/lib64/libmal_rilproxy.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmal_simmngr.so:system/vendor/lib64/libmal_simmngr.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libmatv_cust.so:system/vendor/lib64/libmatv_cust.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmdfx.so:system/vendor/lib64/libmdfx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmdloggerrecycle.so:system/vendor/lib64/libmdloggerrecycle.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmemoryDumpEncoder.so:system/vendor/lib64/libmemoryDumpEncoder.so \
@@ -1131,29 +664,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libminiui.so:system/vendor/lib64/libminiui.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmmprofile.so:system/vendor/lib64/libmmprofile.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmmprofile_jni.so:system/vendor/lib64/libmmprofile_jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libmrdump.so:system/vendor/lib64/libmrdump.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmsbc_mtk.so:system/vendor/lib64/libmsbc_mtk.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmtee.so:system/vendor/lib64/libmtee.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libmtk_drvb.so:system/vendor/lib64/libmtk_drvb.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libmtk_mmutils.so:system/vendor/lib64/libmtk_mmutils.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmtk_vt_wrapper.so:system/vendor/lib64/libmtk_vt_wrapper.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libmtkcam_fwkutils.so:system/vendor/lib64/libmtkcam_fwkutils.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libmtkjpeg.so:system/vendor/lib64/libmtkjpeg.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmtklimiter.so:system/vendor/lib64/libmtklimiter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmtkplayer.so:system/vendor/lib64/libmtkplayer.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libmtkshifter.so:system/vendor/lib64/libmtkshifter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libn3d3a.so:system/vendor/lib64/libn3d3a.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libnativecheck-jni.so:system/vendor/lib64/libnativecheck-jni.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libnvram.so:system/vendor/lib64/libnvram.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libnvram_daemon_callback.so:system/vendor/lib64/libnvram_daemon_callback.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libnvram_platform.so:system/vendor/lib64/libnvram_platform.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libnvram_sec.so:system/vendor/lib64/libnvram_sec.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libnvramagentclient.so:system/vendor/lib64/libnvramagentclient.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libperfservice.so:system/vendor/lib64/libperfservice.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libperfservicenative.so:system/vendor/lib64/libperfservicenative.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libpq_cust.so:system/vendor/lib64/libpq_cust.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libpq_prot.so:system/vendor/lib64/libpq_prot.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libpqservice.so:system/vendor/lib64/libpqservice.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libprogrambinary.so:system/vendor/lib64/libprogrambinary.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libratconfig.so:system/vendor/lib64/libratconfig.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/librilmtk.so:system/vendor/lib64/librilmtk.so \
@@ -1174,11 +695,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libtimestretch.so:system/vendor/lib64/libtimestretch.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libtouchfilter.so:system/vendor/lib64/libtouchfilter.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libudf.so:system/vendor/lib64/libudf.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libui_ext.so:system/vendor/lib64/libui_ext.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libvcodec_cap.so:system/vendor/lib64/libvcodec_cap.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libvcodec_oal.so:system/vendor/lib64/libvcodec_oal.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libvcodec_utility.so:system/vendor/lib64/libvcodec_utility.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/libvcodecdrv.so:system/vendor/lib64/libvcodecdrv.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libvt_avsync.so:system/vendor/lib64/libvt_avsync.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libwapi.so:system/vendor/lib64/libwapi.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/libwfo_jni.so:system/vendor/lib64/libwfo_jni.so \
@@ -1189,4 +707,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/mtk-ril.so:system/vendor/lib64/mtk-ril.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/mtk-rilmd2.so:system/vendor/lib64/mtk-rilmd2.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/mtk-rilproxy.so:system/vendor/lib64/mtk-rilproxy.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/volte_imsm.so:system/vendor/lib64/volte_imsm.so
+    $(LOCAL_PATH)/proprietary/vendor/lib64/volte_imsm.so:system/vendor/lib64/volte_imsm.so \
+    $(LOCAL_PATH)/proprietary/lib/libion.so:system/vendor/lib/libion.so \
+    $(LOCAL_PATH)/proprietary/lib/libimsg_log.so:system/vendor/lib/libimsg_log.so \
+    $(LOCAL_PATH)/proprietary/lib64/libion.so:system/vendor/lib64/libion.so \
+    $(LOCAL_PATH)/proprietary/lib64/libimsg_log.so:system/vendor/lib64/libimsg_log.so
