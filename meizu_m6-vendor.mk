@@ -354,7 +354,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/bluetooth.blueangel.so:system/vendor/lib/hw/bluetooth.blueangel.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/gatekeeper.mt6750.so:system/vendor/lib/hw/gatekeeper.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/gps.mt6750.so:system/vendor/lib/hw/gps.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/keystore.mt6750.so:system/vendor/lib/hw/keystore.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/lights.mt6750.so:system/vendor/lib/hw/lights.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/memtrack.mt6750.so:system/vendor/lib/hw/memtrack.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/sensors.mt6750.so:system/vendor/lib/hw/sensors.mt6750.so \
@@ -555,7 +554,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/drm/libdrmmtkplugin.so:system/vendor/lib64/drm/libdrmmtkplugin.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gatekeeper.mt6750.so:system/vendor/lib64/hw/gatekeeper.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gps.mt6750.so:system/vendor/lib64/hw/gps.mt6750.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/keystore.mt6750.so:system/vendor/lib64/hw/keystore.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/lights.mt6750.so:system/vendor/lib64/hw/lights.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/memtrack.mt6750.so:system/vendor/lib64/hw/memtrack.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/sensors.mt6750.so:system/vendor/lib64/hw/sensors.mt6750.so \
@@ -712,3 +710,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libimsg_log.so:system/vendor/lib/libimsg_log.so \
     $(LOCAL_PATH)/proprietary/lib64/libion.so:system/vendor/lib64/libion.so \
     $(LOCAL_PATH)/proprietary/lib64/libimsg_log.so:system/vendor/lib64/libimsg_log.so
+
+# Build Station: complete stock vendor payload discovered under proprietary/vendor.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/keystore.mt6750.so:system/vendor/lib/hw/keystore.mt6750.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/keystore.mt6750.so:system/vendor/lib64/hw/keystore.mt6750.so
