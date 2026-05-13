@@ -715,3 +715,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/keystore.mt6750.so:system/vendor/lib/hw/keystore.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/keystore.mt6750.so:system/vendor/lib64/hw/keystore.mt6750.so
+
+# Build Station bring-up: stock runtime libs referenced by MTK vendor services.
+# libwvm.so is intentionally not stubbed; it is absent from the current dump.
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+    $(LOCAL_PATH)/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
+    $(LOCAL_PATH)/proprietary/lib/libfs_mgr.so:system/lib/libfs_mgr.so \
+    $(LOCAL_PATH)/proprietary/lib64/libfs_mgr.so:system/lib64/libfs_mgr.so \
+    $(LOCAL_PATH)/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so

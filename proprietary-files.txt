@@ -207,3 +207,10 @@ vendor/lib64/libvcodecdrv.so
 lib/libimsg_log.so:system/vendor/lib/libimsg_log.so
 # Build Station: use ROM-built core system artifact instead of stock blob: lib64/libion.so:system/vendor/lib64/libion.so
 lib64/libimsg_log.so:system/vendor/lib64/libimsg_log.so
+
+# Build Station runtime dependency closure; libwvm.so absent in current dump, do not stub.
+lib/libtinycompress.so
+lib64/libtinycompress.so
+lib/libfs_mgr.so
+lib64/libfs_mgr.so
+lib/libbt-aptX-ARM-4.2.2.so
