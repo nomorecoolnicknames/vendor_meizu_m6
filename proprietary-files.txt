@@ -214,5 +214,3 @@ lib64/libimsg_log.so:system/vendor/lib64/libimsg_log.so
 # Build Station: use ROM-built core system artifact instead of stock blob: lib/libfs_mgr.so
 # Build Station: use ROM-built core system artifact instead of stock blob: lib64/libfs_mgr.so
 lib/libbt-aptX-ARM-4.2.2.so
-# Build Station: use ROM-built core system lib instead of stock blob: lib/libxml2.so
-# Build Station: use ROM-built core system lib instead of stock blob: lib64/libxml2.so
