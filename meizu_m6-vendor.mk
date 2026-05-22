@@ -3,7 +3,11 @@ LOCAL_PATH := vendor/meizu/meizu_m6
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/permissions/flyme.hardware.screen.bluelightreduction.xml:system/etc/permissions/flyme.hardware.screen.bluelightreduction.xml \
+    $(LOCAL_PATH)/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
+    $(LOCAL_PATH)/proprietary/lib/libcam.common.meizu.platform.so:system/lib/libcam.common.meizu.platform.so \
     $(LOCAL_PATH)/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
+    $(LOCAL_PATH)/proprietary/lib64/libcam.common.meizu.so:system/lib64/libcam.common.meizu.so \
+    $(LOCAL_PATH)/proprietary/lib64/libcam.common.meizu.platform.so:system/lib64/libcam.common.meizu.platform.so \
     $(LOCAL_PATH)/proprietary/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
     $(LOCAL_PATH)/proprietary/vendor/bin/ged_srv:system/vendor/bin/ged_srv \
     $(LOCAL_PATH)/proprietary/vendor/bin/pq:system/vendor/bin/pq \
