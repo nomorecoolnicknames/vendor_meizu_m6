@@ -2,7 +2,6 @@
 LOCAL_PATH := vendor/meizu/meizu_m6
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/etc/permissions/com.meizu.camera.xml:system/etc/permissions/com.meizu.camera.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/flyme.hardware.screen.bluelightreduction.xml:system/etc/permissions/flyme.hardware.screen.bluelightreduction.xml \
     $(LOCAL_PATH)/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
     $(LOCAL_PATH)/proprietary/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
@@ -84,7 +83,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/camera.mt6750.so:system/vendor/lib/hw/camera.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/gralloc.mt6750.so:system/vendor/lib/hw/gralloc.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/hw/gralloc.mt6750.so:system/vendor/lib/hw/gralloc.mt6755.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/hwcomposer.mt6755.so:system/vendor/lib/hw/hwcomposer.mt6755.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/hwcomposer.mt6755.so:system/vendor/lib/hw/hwcomposer.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/lib3a.so:system/vendor/lib/lib3a.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/lib3a_core1.so:system/vendor/lib/lib3a_core1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/lib3a_core2.so:system/vendor/lib/lib3a_core2.so \
@@ -150,7 +149,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/camera.mt6750.so:system/vendor/lib64/hw/camera.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gralloc.mt6750.so:system/vendor/lib64/hw/gralloc.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/hw/gralloc.mt6750.so:system/vendor/lib64/hw/gralloc.mt6755.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/hwcomposer.mt6755.so:system/vendor/lib64/hw/hwcomposer.mt6755.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib64/hw/hwcomposer.mt6755.so:system/vendor/lib64/hw/hwcomposer.mt6750.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a.so:system/vendor/lib64/lib3a.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a_core1.so:system/vendor/lib64/lib3a_core1.so \
     $(LOCAL_PATH)/proprietary/vendor/lib64/lib3a_core2.so:system/vendor/lib64/lib3a_core2.so \
@@ -373,7 +372,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libMtkOmxGsmDec.so:system/vendor/lib/libMtkOmxGsmDec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libMtkOmxMp3Dec.so:system/vendor/lib/libMtkOmxMp3Dec.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libMtkOmxRawDec.so:system/vendor/lib/libMtkOmxRawDec.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libMtkOmxVdecEx.so:system/vendor/lib/libMtkOmxVdecEx.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libMtkOmxVenc.so:system/vendor/lib/libMtkOmxVenc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libMtkOmxVorbisEnc.so:system/vendor/lib/libMtkOmxVorbisEnc.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libMtkVideoSpeedEffect.so:system/vendor/lib/libMtkVideoSpeedEffect.so \
@@ -719,4 +717,9 @@ PRODUCT_COPY_FILES += \
 # Build Station bring-up: stock runtime libs referenced by MTK vendor services.
 # libwvm.so is intentionally not stubbed; it is absent from the current dump.
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so
+    $(LOCAL_PATH)/proprietary/lib/libbt-aptX-ARM-4.2.2.so:system/lib/libbt-aptX-ARM-4.2.2.so \
+    $(LOCAL_PATH)/proprietary/lib/libfs_mgr.so:system/vendor/lib/libfs_mgr.so \
+    $(LOCAL_PATH)/proprietary/lib64/libfs_mgr.so:system/vendor/lib64/libfs_mgr.so \
+    $(LOCAL_PATH)/proprietary/lib/libcurl.so:system/vendor/lib/libcurl.so \
+    $(LOCAL_PATH)/proprietary/lib/libnetutils.so:system/vendor/lib/libnetutils.so \
+    $(LOCAL_PATH)/proprietary/lib64/libnetutils.so:system/vendor/lib64/libnetutils.so
